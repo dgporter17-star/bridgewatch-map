@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a0342009455305e58679025df511b404 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a0342009455305e58679025df511b404" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a0342009455305e58679025df511b404 = L.map(
+                "map_a0342009455305e58679025df511b404",
+                {
+                    center: [32.4705814, -90.1422566],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_a0342009455305e58679025df511b404);
+
+            
+
+        
+    
+            var tile_layer_01eedf646560074b0a9e914d488e5d78 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_01eedf646560074b0a9e914d488e5d78.addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var marker_074058344feaecf59fcd12ae77b9adbe = L.marker(
+                [32.4705814, -90.1422566],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_f5a066e608e65228ea7bd0daee3b5fee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_074058344feaecf59fcd12ae77b9adbe.bindTooltip(
+                `<div>
+                     KEY, LLC — 219 Key Drive, Madison, MS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_074058344feaecf59fcd12ae77b9adbe.setIcon(icon_f5a066e608e65228ea7bd0daee3b5fee);
+            
+    
+            var circle_marker_fdc8794b18e56252289eea73308b01a2 = L.circleMarker(
+                [31.32712, -89.29034],
+                {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+        var popup_f3d4d305be158c44ddc39d8f797553e5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7b1bfe33252d51d45e8766698165679e = $(`<div id="html_7b1bfe33252d51d45e8766698165679e" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Hattiesburg, MS</div>`)[0];
+                popup_f3d4d305be158c44ddc39d8f797553e5.setContent(html_7b1bfe33252d51d45e8766698165679e);
+            
+        
+
+        circle_marker_fdc8794b18e56252289eea73308b01a2.bindPopup(popup_f3d4d305be158c44ddc39d8f797553e5)
+        ;
+
+        
+    
+    
+            circle_marker_fdc8794b18e56252289eea73308b01a2.bindTooltip(
+                `<div>
+                     KEY satellite office — Hattiesburg, MS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39575f19fbb38e9408ad204d9463715a = L.circleMarker(
+                [35.14603, -90.05178],
+                {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+        var popup_c09252f950540a166887a140a033402e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f1be17a41892ccd8302c609b3e697895 = $(`<div id="html_f1be17a41892ccd8302c609b3e697895" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Memphis, TN</div>`)[0];
+                popup_c09252f950540a166887a140a033402e.setContent(html_f1be17a41892ccd8302c609b3e697895);
+            
+        
+
+        circle_marker_39575f19fbb38e9408ad204d9463715a.bindPopup(popup_c09252f950540a166887a140a033402e)
+        ;
+
+        
+    
+    
+            circle_marker_39575f19fbb38e9408ad204d9463715a.bindTooltip(
+                `<div>
+                     KEY satellite office — Memphis, TN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6d4ef2f72fce45eede9714f3b8635a0 = L.circleMarker(
+                [31.56041, -91.40317],
+                {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+        var popup_cbe82890777ff46e41a45bc234960603 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1f48d49fe14c26be988c5c7d7d19e056 = $(`<div id="html_1f48d49fe14c26be988c5c7d7d19e056" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Natchez, MS</div>`)[0];
+                popup_cbe82890777ff46e41a45bc234960603.setContent(html_1f48d49fe14c26be988c5c7d7d19e056);
+            
+        
+
+        circle_marker_c6d4ef2f72fce45eede9714f3b8635a0.bindPopup(popup_cbe82890777ff46e41a45bc234960603)
+        ;
+
+        
+    
+    
+            circle_marker_c6d4ef2f72fce45eede9714f3b8635a0.bindTooltip(
+                `<div>
+                     KEY satellite office — Natchez, MS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ae072fad4b9b5b50cd6e01a4709d060 = L.circleMarker(
+                [38.5132, -90.44006],
+                {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+        var popup_91397d1406673322addb2d2e22d00e02 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_13d26403a1a49071f822ece25dd35ae6 = $(`<div id="html_13d26403a1a49071f822ece25dd35ae6" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Fenton, MO</div>`)[0];
+                popup_91397d1406673322addb2d2e22d00e02.setContent(html_13d26403a1a49071f822ece25dd35ae6);
+            
+        
+
+        circle_marker_0ae072fad4b9b5b50cd6e01a4709d060.bindPopup(popup_91397d1406673322addb2d2e22d00e02)
+        ;
+
+        
+    
+    
+            circle_marker_0ae072fad4b9b5b50cd6e01a4709d060.bindTooltip(
+                `<div>
+                     KEY satellite office — Fenton, MO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4c57875c5e07febd880d1b149e97d9d2 = L.circle(
+                [32.4705814, -90.1422566],
+                {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 241401.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            circle_4c57875c5e07febd880d1b149e97d9d2.bindTooltip(
+                `<div>
+                     150 miles from Madison
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c8e02a5d0d33cb5d8a8e7c22747eb8b = L.marker(
+                [34.64449444347826, -90.1422566],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var div_icon_893568b93efa5a588636e13bceb18bd5 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e150 mi\u003c/div\u003e",
+  "iconSize": [66, 20],
+  "iconAnchor": [33, 10],
+  "className": "empty",
+});
+        
+    
+                marker_6c8e02a5d0d33cb5d8a8e7c22747eb8b.setIcon(div_icon_893568b93efa5a588636e13bceb18bd5);
+            
+    
+            var circle_096ad0daecb6abbe6af3740f7152dc78 = L.circle(
+                [32.4705814, -90.1422566],
+                {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 482802.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            circle_096ad0daecb6abbe6af3740f7152dc78.bindTooltip(
+                `<div>
+                     300 miles from Madison
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d40faf65aa7cd2c846f0c03e69ec221a = L.marker(
+                [36.818407486956524, -90.1422566],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var div_icon_be76f40307f46c2d0d0e61d7397fc121 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e300 mi\u003c/div\u003e",
+  "iconSize": [66, 20],
+  "iconAnchor": [33, 10],
+  "className": "empty",
+});
+        
+    
+                marker_d40faf65aa7cd2c846f0c03e69ec221a.setIcon(div_icon_be76f40307f46c2d0d0e61d7397fc121);
+            
+    
+            var circle_1cffa512e0954b6e7f04f37d2c1e153c = L.circle(
+                [32.4705814, -90.1422566],
+                {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 724203.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            circle_1cffa512e0954b6e7f04f37d2c1e153c.bindTooltip(
+                `<div>
+                     450 miles from Madison
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65b7063ca37fcf94665268b2bb4268b5 = L.marker(
+                [38.99232053043478, -90.1422566],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var div_icon_dabb126c2db3b1d6ced9b57ee1eca1a0 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e450 mi\u003c/div\u003e",
+  "iconSize": [66, 20],
+  "iconAnchor": [33, 10],
+  "className": "empty",
+});
+        
+    
+                marker_65b7063ca37fcf94665268b2bb4268b5.setIcon(div_icon_dabb126c2db3b1d6ced9b57ee1eca1a0);
+            
+    
+            var marker_094579af5dce487cdea837dabc6772ee = L.marker(
+                [36.16913, -86.78479],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_c6eabf43792769c54f0a2a609613d955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abaf638e3d4203f2fb9ae04849ec0884 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b9f2db66f438eef6a2d3599e9a48add = $(`<div id="html_8b9f2db66f438eef6a2d3599e9a48add" style="width: 100.0%; height: 100.0%;"><b>The repair of the bridges on I-40 westbound over the CSX Railroad (L.M. 13.64) and 40th Avenue North (L.M. 13.76).</b><br>Davidson (TDOT) &middot; ~319 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_abaf638e3d4203f2fb9ae04849ec0884.setContent(html_8b9f2db66f438eef6a2d3599e9a48add);
+            
+        
+
+        marker_094579af5dce487cdea837dabc6772ee.bindPopup(popup_abaf638e3d4203f2fb9ae04849ec0884)
+        ;
+
+        
+    
+    
+            marker_094579af5dce487cdea837dabc6772ee.bindTooltip(
+                `<div>
+                     Davidson ~319 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_094579af5dce487cdea837dabc6772ee.setIcon(icon_c6eabf43792769c54f0a2a609613d955);
+            
+    
+            var marker_f4e3148188717fde91cfcb168f3b197f = L.marker(
+                [36.0542, -89.39831],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_de8917b2b559f3115da22b82874205b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a233824c1f431c095bf73296cbba6fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_698f836222fd1c15c1a84240656ea8ef = $(`<div id="html_698f836222fd1c15c1a84240656ea8ef" style="width: 100.0%; height: 100.0%;"><b>The construction of a concrete Bulb-Tee beam bridge on S.R. 211 over Overflow (L.M. 1.31), including grading, drainage, retaining </b><br>Dyer (TDOT) &middot; ~251 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_7a233824c1f431c095bf73296cbba6fe.setContent(html_698f836222fd1c15c1a84240656ea8ef);
+            
+        
+
+        marker_f4e3148188717fde91cfcb168f3b197f.bindPopup(popup_7a233824c1f431c095bf73296cbba6fe)
+        ;
+
+        
+    
+    
+            marker_f4e3148188717fde91cfcb168f3b197f.bindTooltip(
+                `<div>
+                     Dyer ~251 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f4e3148188717fde91cfcb168f3b197f.setIcon(icon_de8917b2b559f3115da22b82874205b7);
+            
+    
+            var marker_ef97065d3f7515015cb12984a41eb4f6 = L.marker(
+                [35.20189, -88.1857],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_78b6f96172063273da85dedfb6a2a9a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d8e1d4cb60f040d1eacfa476ca841b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59c2e4fb685fc5dd536ff15d356bcf28 = $(`<div id="html_59c2e4fb685fc5dd536ff15d356bcf28" style="width: 100.0%; height: 100.0%;"><b>The repair of the bridge on U.S. 641 (S.R. 114) over the Tennessee River (L.M. 3.22).</b><br>Hardin (TDOT) &middot; ~220 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_5d8e1d4cb60f040d1eacfa476ca841b2.setContent(html_59c2e4fb685fc5dd536ff15d356bcf28);
+            
+        
+
+        marker_ef97065d3f7515015cb12984a41eb4f6.bindPopup(popup_5d8e1d4cb60f040d1eacfa476ca841b2)
+        ;
+
+        
+    
+    
+            marker_ef97065d3f7515015cb12984a41eb4f6.bindTooltip(
+                `<div>
+                     Hardin ~220 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef97065d3f7515015cb12984a41eb4f6.setIcon(icon_78b6f96172063273da85dedfb6a2a9a1);
+            
+    
+            var marker_2832ecc2ff2db7700e305f290811d73b = L.marker(
+                [36.45209, -82.93148],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_6483272ba4a61c7395f666a8a9be54e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d18a2dea51d5eda2aa86acf5ed037261 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba074de96bf2d43096e861cc11ad699f = $(`<div id="html_ba074de96bf2d43096e861cc11ad699f" style="width: 100.0%; height: 100.0%;"><b>The grading, drainage, construction of bridges, signals, and paving on S.R. 31 near U.S. 11W (S.R. 1) in Mooresburg (L.M. 0.100) t</b><br>Hawkins (TDOT) &middot; ~494 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_d18a2dea51d5eda2aa86acf5ed037261.setContent(html_ba074de96bf2d43096e861cc11ad699f);
+            
+        
+
+        marker_2832ecc2ff2db7700e305f290811d73b.bindPopup(popup_d18a2dea51d5eda2aa86acf5ed037261)
+        ;
+
+        
+    
+    
+            marker_2832ecc2ff2db7700e305f290811d73b.bindTooltip(
+                `<div>
+                     Hawkins ~494 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2832ecc2ff2db7700e305f290811d73b.setIcon(icon_6483272ba4a61c7395f666a8a9be54e0);
+            
+    
+            var marker_cbae50919e92e1c340e2f7500f6188f5 = L.marker(
+                [35.80233, -87.46712],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_01d56f2f69a9b558fda889f67cdb261d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf20a57c7e65ad26fcb6b04c28ba1edf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_776610bd9bc1f2abeb262476ab7487d3 = $(`<div id="html_776610bd9bc1f2abeb262476ab7487d3" style="width: 100.0%; height: 100.0%;"><b>The repair of the bridges on I-40 over Garners Creek (L.M. 1.53).</b><br>Hickman (TDOT) &middot; ~276 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_cf20a57c7e65ad26fcb6b04c28ba1edf.setContent(html_776610bd9bc1f2abeb262476ab7487d3);
+            
+        
+
+        marker_cbae50919e92e1c340e2f7500f6188f5.bindPopup(popup_cf20a57c7e65ad26fcb6b04c28ba1edf)
+        ;
+
+        
+    
+    
+            marker_cbae50919e92e1c340e2f7500f6188f5.bindTooltip(
+                `<div>
+                     Hickman ~276 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cbae50919e92e1c340e2f7500f6188f5.setIcon(icon_01d56f2f69a9b558fda889f67cdb261d);
+            
+    
+            var marker_b230dae5a9ba59ca5d5bb0fbb019a59a = L.marker(
+                [36.4532, -81.86125],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_c6a3dc0f5f276262fdafbfc368771850 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83039c8e6a4259e9fa7d84539b630b98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5fe051052b72df673bef5f465a2ea190 = $(`<div id="html_5fe051052b72df673bef5f465a2ea190" style="width: 100.0%; height: 100.0%;"><b>The construction of a concrete box beam bridge on Slimp Branch Road over Roan Creek (L.M. 0.34), including grading, drainage, and </b><br>Johnson (TDOT) &middot; ~546 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_83039c8e6a4259e9fa7d84539b630b98.setContent(html_5fe051052b72df673bef5f465a2ea190);
+            
+        
+
+        marker_b230dae5a9ba59ca5d5bb0fbb019a59a.bindPopup(popup_83039c8e6a4259e9fa7d84539b630b98)
+        ;
+
+        
+    
+    
+            marker_b230dae5a9ba59ca5d5bb0fbb019a59a.bindTooltip(
+                `<div>
+                     Johnson ~546 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b230dae5a9ba59ca5d5bb0fbb019a59a.setIcon(icon_c6a3dc0f5f276262fdafbfc368771850);
+            
+    
+            var marker_b399c19a5b3abb6bdff7b62a45172aaa = L.marker(
+                [35.84725, -84.52393],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_149942a50e5787a6b6c4bc46361a8823 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5ef5c9e63d6a052a4cf41d5ebeab6ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93471cf8f634389c53267096162ddf78 = $(`<div id="html_93471cf8f634389c53267096162ddf78" style="width: 100.0%; height: 100.0%;"><b>The repair of the bridge on Pansy Hill Drive over the Emory River (L.M. 0.28) in Harriman.</b><br>Roane (TDOT) &middot; ~397 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_e5ef5c9e63d6a052a4cf41d5ebeab6ab.setContent(html_93471cf8f634389c53267096162ddf78);
+            
+        
+
+        marker_b399c19a5b3abb6bdff7b62a45172aaa.bindPopup(popup_e5ef5c9e63d6a052a4cf41d5ebeab6ab)
+        ;
+
+        
+    
+    
+            marker_b399c19a5b3abb6bdff7b62a45172aaa.bindTooltip(
+                `<div>
+                     Roane ~397 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b399c19a5b3abb6bdff7b62a45172aaa.setIcon(icon_149942a50e5787a6b6c4bc46361a8823);
+            
+    
+            var marker_9aaf20da32195b227932c41c6a4651fc = L.marker(
+                [36.47242, -86.4584],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_318b7f205d9940ba0e41cc9f6a3d8578 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_115cbd62500bdace2b52d863609db965 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa41385078f301119d21f8aca7cfe43c = $(`<div id="html_aa41385078f301119d21f8aca7cfe43c" style="width: 100.0%; height: 100.0%;"><b>The construction of a concrete box beam bridge on U.S. 31E (S.R. 6, Nashville Pike) over East Fork Station Camp Creek (L.M. 11.91)</b><br>Sumner (TDOT) &middot; ~347 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_115cbd62500bdace2b52d863609db965.setContent(html_aa41385078f301119d21f8aca7cfe43c);
+            
+        
+
+        marker_9aaf20da32195b227932c41c6a4651fc.bindPopup(popup_115cbd62500bdace2b52d863609db965)
+        ;
+
+        
+    
+    
+            marker_9aaf20da32195b227932c41c6a4651fc.bindTooltip(
+                `<div>
+                     Sumner ~347 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9aaf20da32195b227932c41c6a4651fc.setIcon(icon_318b7f205d9940ba0e41cc9f6a3d8578);
+            
+    
+            var marker_de0d2e5b4ebe07ff708874a1571e91cd = L.marker(
+                [35.89484, -86.89789],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_16c898a15fc06a0c26c5425f93e92df6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf1bbcbccb101768c1d47371fd903e31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3258b96330407f1eec9d83e5d1fa84b1 = $(`<div id="html_3258b96330407f1eec9d83e5d1fa84b1" style="width: 100.0%; height: 100.0%;"><b>The grading, drainage, construction of concrete box beam bridges, retaining wall, and paving on U.S. 31 (S.R. 6, East Main Street)</b><br>Williamson (TDOT) &middot; ~301 mi<br>Bids 2026-06-26<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/june-26--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_cf1bbcbccb101768c1d47371fd903e31.setContent(html_3258b96330407f1eec9d83e5d1fa84b1);
+            
+        
+
+        marker_de0d2e5b4ebe07ff708874a1571e91cd.bindPopup(popup_cf1bbcbccb101768c1d47371fd903e31)
+        ;
+
+        
+    
+    
+            marker_de0d2e5b4ebe07ff708874a1571e91cd.bindTooltip(
+                `<div>
+                     Williamson ~301 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de0d2e5b4ebe07ff708874a1571e91cd.setIcon(icon_16c898a15fc06a0c26c5425f93e92df6);
+            
+    
+            var marker_a20275f8a954a942b5b92904632b3b95 = L.marker(
+                [31.68008, -92.1616],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_bcd1fab6e3c95bc3609e3babe90355cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21e5df9e8daa3e53eaf1a17fbff58346 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_16f762498cb50126cd64c8884e58c59b = $(`<div id="html_16f762498cb50126cd64c8884e58c59b" style="width: 100.0%; height: 100.0%;"><b>US 84: CASTOR CREEK AND RELIEF BRIDGES</b><br>LaSalle; Winn (LADOTD) &middot; ~130 mi<br>Bids 2026-07-08<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20260708.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_1:~:text=US%2084%3A%20CASTOR%20CREEK%20AND%20RELIEF%20BRIDGES' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_21e5df9e8daa3e53eaf1a17fbff58346.setContent(html_16f762498cb50126cd64c8884e58c59b);
+            
+        
+
+        marker_a20275f8a954a942b5b92904632b3b95.bindPopup(popup_21e5df9e8daa3e53eaf1a17fbff58346)
+        ;
+
+        
+    
+    
+            marker_a20275f8a954a942b5b92904632b3b95.bindTooltip(
+                `<div>
+                     LaSalle; Winn ~130 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a20275f8a954a942b5b92904632b3b95.setIcon(icon_bcd1fab6e3c95bc3609e3babe90355cf);
+            
+    
+            var marker_be7144c188dd3d9b95fc1c0969618580 = L.marker(
+                [29.5033, -90.03623],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_e491d83c226d404721e001683fb950de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3730585cffaca9353fdff9f1f0bf0fde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42fa4e023959eae23e8e02a8e56664c9 = $(`<div id="html_42fa4e023959eae23e8e02a8e56664c9" style="width: 100.0%; height: 100.0%;"><b>PETERS ROAD BRIDGE &amp; EXTENSION PHASE 2A</b><br>Jefferson (LADOTD) &middot; ~205 mi<br>Bids 2026-07-08<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20260708.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_4:~:text=PETERS%20ROAD%20BRIDGE%20%26%20EXTENSION%20PHASE%202A' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_3730585cffaca9353fdff9f1f0bf0fde.setContent(html_42fa4e023959eae23e8e02a8e56664c9);
+            
+        
+
+        marker_be7144c188dd3d9b95fc1c0969618580.bindPopup(popup_3730585cffaca9353fdff9f1f0bf0fde)
+        ;
+
+        
+    
+    
+            marker_be7144c188dd3d9b95fc1c0969618580.bindTooltip(
+                `<div>
+                     Jefferson ~205 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_be7144c188dd3d9b95fc1c0969618580.setIcon(icon_e491d83c226d404721e001683fb950de);
+            
+    
+            var marker_2bbfc322b49dd1af81d0c34b2f883833 = L.marker(
+                [32.34688, -91.23193],
+                {
+}
+            ).addTo(map_a0342009455305e58679025df511b404);
+        
+    
+            var icon_97461d8365bf8b890d65d3b592d8f9b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b93c889eae26128dac909c5ef771dc9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0743e2a976077929177e76c72c27fe5c = $(`<div id="html_0743e2a976077929177e76c72c27fe5c" style="width: 100.0%; height: 100.0%;"><b>US 80: BAYOU MACON BRIDGE REPLACEMENT</b><br>Madison; Richland (LADOTD) &middot; ~64 mi<br>Bids 2026-07-08<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20260708.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_8:~:text=US%2080%3A%20BAYOU%20MACON%20BRIDGE%20REPLACEMENT' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_b93c889eae26128dac909c5ef771dc9e.setContent(html_0743e2a976077929177e76c72c27fe5c);
+            
+        
+
+        marker_2bbfc322b49dd1af81d0c34b2f883833.bindPopup(popup_b93c889eae26128dac909c5ef771dc9e)
+        ;
+
+        
+    
+    
+            marker_2bbfc322b49dd1af81d0c34b2f883833.bindTooltip(
+                `<div>
+                     Madison; Richland ~64 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bbfc322b49dd1af81d0c34b2f883833.setIcon(icon_97461d8365bf8b890d65d3b592d8f9b6);
+            
+</script>
+</html>
