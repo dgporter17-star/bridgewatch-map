@@ -37,7 +37,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_30d51b2a905f5612e9893e812f86bfc7 {
+                #map_490e9e18175f72e9292ec2c868f3769f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -74,7 +74,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_30d51b2a905f5612e9893e812f86bfc7" ></div>
+            <div class="folium-map" id="map_490e9e18175f72e9292ec2c868f3769f" ></div>
         
 </body>
 <script>
@@ -86,7 +86,7 @@
  // "Cannot read properties of undefined (reading '_controlCorners')" and a blank page.  The
  // map's own init is an inline script, so DOMContentLoaded is always later than it.
  function init(){
-  var MAP = map_30d51b2a905f5612e9893e812f86bfc7, LAYERS = {"ARDOT":feature_group_384aef3571e1f9e6828fc32829f2f660,"LADOTD":feature_group_1813bb25b0c5e78bb01f43a3ef015ad6,"MODOT":feature_group_69a419c9ba5abd9a1110077606fc9eae,"MDOT":feature_group_108c0b6515f2a17e7c50ffd59a5ea308,"MDOT_ALT":feature_group_e53bda6811768f67ded6d44cff3b7a66,"MSLOCAL":feature_group_da41c22f37da659305816211b152518c,"MSAID":feature_group_757bf8797f21989ee780ab9130a78d46,"TDOT":feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5,"TDOT_ALT":feature_group_6924f28c3de4aab33c1cfd7bedb818a3}, STATE_OF = {"ARDOT": "AR", "LADOTD": "LA", "MODOT": "MO", "MDOT": "MS", "MDOT_ALT": "MS", "MSLOCAL": "MS", "MSAID": "MS", "TDOT": "TN", "TDOT_ALT": "TN"}, PANEL = "<div class=\"bw-head\">Filter<b>&#9662;</b></div><div class=\"bw-body\"><div class=\"bw-sec\">State</div><label><input type=\"checkbox\" class=\"bw-st\" value=\"AR\" checked>Arkansas<i>1</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"LA\" checked>Louisiana<i>7</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"MS\" checked>Mississippi<i>14</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"MO\" checked>Missouri<i>14</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"TN\" checked>Tennessee<i>15</i></label><div class=\"bw-sec\">Jurisdiction</div><label><input type=\"checkbox\" class=\"bw-ju\" value=\"ARDOT\" checked>ARDOT<i>1</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"LADOTD\" checked>LADOTD<i>7</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MODOT\" checked>MoDOT<i>14</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MDOT\" checked>MDOT<i>3</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MDOT_ALT\" checked>MDOT \u2014 Alt Delivery<i>1</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MSLOCAL\" checked>MS Local<i>5</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MSAID\" checked>MS State Aid<i>5</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"TDOT\" checked>TDOT<i>10</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"TDOT_ALT\" checked>TDOT \u2014 Alt Delivery<i>5</i></label><div class=\"bw-btns\"><button type=\"button\" data-all=\"1\">All</button><button type=\"button\" data-all=\"0\">None</button></div></div>";
+  var MAP = map_490e9e18175f72e9292ec2c868f3769f, LAYERS = {"ARDOT":feature_group_5e68aa99628bc0c7308c8dd6b7f52efc,"LADOTD":feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d,"MODOT":feature_group_201704b72a7e31bcffdb1337003ec06d,"MDOT":feature_group_88a17ae17a6036b44f444b6e3ee35a06,"MDOT_ALT":feature_group_4f8b142d5948dce7f5ca1bb460feaf88,"MSLOCAL":feature_group_7bbc9f0b26b131417edf322d3e752f1a,"MSAID":feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa,"TDOT":feature_group_690a6caa1825832f321f7a1bd1e251c0,"TDOT_ALT":feature_group_f495634e66d5ec0f046063f04ee7428e}, STATE_OF = {"ARDOT": "AR", "LADOTD": "LA", "MODOT": "MO", "MDOT": "MS", "MDOT_ALT": "MS", "MSLOCAL": "MS", "MSAID": "MS", "TDOT": "TN", "TDOT_ALT": "TN"}, PANEL = "<div class=\"bw-head\">Filter<b>&#9662;</b></div><div class=\"bw-body\"><div class=\"bw-sec\">State</div><label><input type=\"checkbox\" class=\"bw-st\" value=\"AR\" checked>Arkansas<i>1</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"LA\" checked>Louisiana<i>7</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"MS\" checked>Mississippi<i>14</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"MO\" checked>Missouri<i>14</i></label><label><input type=\"checkbox\" class=\"bw-st\" value=\"TN\" checked>Tennessee<i>15</i></label><div class=\"bw-sec\">Jurisdiction</div><label><input type=\"checkbox\" class=\"bw-ju\" value=\"ARDOT\" checked>ARDOT<i>1</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"LADOTD\" checked>LADOTD<i>7</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MODOT\" checked>MoDOT<i>14</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MDOT\" checked>MDOT<i>3</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MDOT_ALT\" checked>MDOT \u2014 Alt Delivery<i>1</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MSLOCAL\" checked>MS Local<i>5</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"MSAID\" checked>MS State Aid<i>5</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"TDOT\" checked>TDOT<i>10</i></label><label><input type=\"checkbox\" class=\"bw-ju\" value=\"TDOT_ALT\" checked>TDOT \u2014 Alt Delivery<i>5</i></label><div class=\"bw-btns\"><button type=\"button\" data-all=\"1\">All</button><button type=\"button\" data-all=\"0\">None</button></div></div>";
   var root = null;
   var ctl = L.control({position:'topright'});
   ctl.onAdd = function(){
@@ -142,8 +142,8 @@
  else init();
 })();
     
-            var map_30d51b2a905f5612e9893e812f86bfc7 = L.map(
-                "map_30d51b2a905f5612e9893e812f86bfc7",
+            var map_490e9e18175f72e9292ec2c868f3769f = L.map(
+                "map_490e9e18175f72e9292ec2c868f3769f",
                 {
                     center: [32.4705814, -90.1422566],
                     crs: L.CRS.EPSG3857,
@@ -155,13 +155,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            L.control.scale().addTo(map_490e9e18175f72e9292ec2c868f3769f);
 
             
 
         
     
-            var tile_layer_b13060ff6efb54b4fdab7471fbade103 = L.tileLayer(
+            var tile_layer_52d5b8dba2b15a3c599839c3ec9636f3 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -178,17 +178,17 @@
             );
         
     
-            tile_layer_b13060ff6efb54b4fdab7471fbade103.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            tile_layer_52d5b8dba2b15a3c599839c3ec9636f3.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var marker_38dec6d102d11b85ac4636e34c9d235c = L.marker(
+            var marker_1ef68f4d4055ed077ac5b531eecd82b3 = L.marker(
                 [32.4705814, -90.1422566],
                 {
 }
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var icon_6198dbe40101fe0d584388c291a5bc48 = L.AwesomeMarkers.icon(
+            var icon_b96fcc399cd417ef65cc5ce4f492069e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -199,7 +199,7 @@
             );
         
     
-            marker_38dec6d102d11b85ac4636e34c9d235c.bindTooltip(
+            marker_1ef68f4d4055ed077ac5b531eecd82b3.bindTooltip(
                 `<div>
                      KEY, LLC — 219 Key Drive, Madison, MS
                  </div>`,
@@ -209,33 +209,33 @@
             );
         
     
-                marker_38dec6d102d11b85ac4636e34c9d235c.setIcon(icon_6198dbe40101fe0d584388c291a5bc48);
+                marker_1ef68f4d4055ed077ac5b531eecd82b3.setIcon(icon_b96fcc399cd417ef65cc5ce4f492069e);
             
     
-            var circle_marker_d7cd5f8751a2d360e2cf615b032f9a78 = L.circleMarker(
+            var circle_marker_9997cbe4b1ac6e8f804dac9b29bb6dad = L.circleMarker(
                 [31.32712, -89.29034],
                 {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-        var popup_93099d929d61f0d00091bd7672fb3226 = L.popup({
+        var popup_810964a7392a0f2b410b0fedd29565f8 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_e0f495555cba12ceacbf24d45f7737c9 = $(`<div id="html_e0f495555cba12ceacbf24d45f7737c9" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Hattiesburg, MS</div>`)[0];
-                popup_93099d929d61f0d00091bd7672fb3226.setContent(html_e0f495555cba12ceacbf24d45f7737c9);
+                var html_cc713006a4b82786e15f07a09b240069 = $(`<div id="html_cc713006a4b82786e15f07a09b240069" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Hattiesburg, MS</div>`)[0];
+                popup_810964a7392a0f2b410b0fedd29565f8.setContent(html_cc713006a4b82786e15f07a09b240069);
             
         
 
-        circle_marker_d7cd5f8751a2d360e2cf615b032f9a78.bindPopup(popup_93099d929d61f0d00091bd7672fb3226)
+        circle_marker_9997cbe4b1ac6e8f804dac9b29bb6dad.bindPopup(popup_810964a7392a0f2b410b0fedd29565f8)
         ;
 
         
     
     
-            circle_marker_d7cd5f8751a2d360e2cf615b032f9a78.bindTooltip(
+            circle_marker_9997cbe4b1ac6e8f804dac9b29bb6dad.bindTooltip(
                 `<div>
                      KEY satellite office — Hattiesburg, MS
                  </div>`,
@@ -245,30 +245,30 @@
             );
         
     
-            var circle_marker_2fa1155b5e868b6c2fb7dad20d0a4203 = L.circleMarker(
+            var circle_marker_42b6ace7a5cdad5a819e31ac7ee07883 = L.circleMarker(
                 [35.14603, -90.05178],
                 {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-        var popup_89cac3294ca68eb2aff91d53760652ba = L.popup({
+        var popup_e896eaf28fa2bf980ae34a545cbae815 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_d81d943ce50d9d22525e9b7754779a30 = $(`<div id="html_d81d943ce50d9d22525e9b7754779a30" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Memphis, TN</div>`)[0];
-                popup_89cac3294ca68eb2aff91d53760652ba.setContent(html_d81d943ce50d9d22525e9b7754779a30);
+                var html_bc81a10ca6eab19f6a03ec51405c837b = $(`<div id="html_bc81a10ca6eab19f6a03ec51405c837b" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Memphis, TN</div>`)[0];
+                popup_e896eaf28fa2bf980ae34a545cbae815.setContent(html_bc81a10ca6eab19f6a03ec51405c837b);
             
         
 
-        circle_marker_2fa1155b5e868b6c2fb7dad20d0a4203.bindPopup(popup_89cac3294ca68eb2aff91d53760652ba)
+        circle_marker_42b6ace7a5cdad5a819e31ac7ee07883.bindPopup(popup_e896eaf28fa2bf980ae34a545cbae815)
         ;
 
         
     
     
-            circle_marker_2fa1155b5e868b6c2fb7dad20d0a4203.bindTooltip(
+            circle_marker_42b6ace7a5cdad5a819e31ac7ee07883.bindTooltip(
                 `<div>
                      KEY satellite office — Memphis, TN
                  </div>`,
@@ -278,30 +278,30 @@
             );
         
     
-            var circle_marker_5583b8a1d3b750ac5512204b1cb9ac16 = L.circleMarker(
+            var circle_marker_a476b54ebbab14f888477fc85ca29904 = L.circleMarker(
                 [31.56041, -91.40317],
                 {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-        var popup_8ffa21832f4294cba8866fb21cf3953c = L.popup({
+        var popup_2068b5a5b5adb026ac28a6b7761f8e65 = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_9b85c24a2bbd10b1584dc6c5ea7082c6 = $(`<div id="html_9b85c24a2bbd10b1584dc6c5ea7082c6" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Natchez, MS</div>`)[0];
-                popup_8ffa21832f4294cba8866fb21cf3953c.setContent(html_9b85c24a2bbd10b1584dc6c5ea7082c6);
+                var html_ca2ff74416a272d119dd3af253c25611 = $(`<div id="html_ca2ff74416a272d119dd3af253c25611" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Natchez, MS</div>`)[0];
+                popup_2068b5a5b5adb026ac28a6b7761f8e65.setContent(html_ca2ff74416a272d119dd3af253c25611);
             
         
 
-        circle_marker_5583b8a1d3b750ac5512204b1cb9ac16.bindPopup(popup_8ffa21832f4294cba8866fb21cf3953c)
+        circle_marker_a476b54ebbab14f888477fc85ca29904.bindPopup(popup_2068b5a5b5adb026ac28a6b7761f8e65)
         ;
 
         
     
     
-            circle_marker_5583b8a1d3b750ac5512204b1cb9ac16.bindTooltip(
+            circle_marker_a476b54ebbab14f888477fc85ca29904.bindTooltip(
                 `<div>
                      KEY satellite office — Natchez, MS
                  </div>`,
@@ -311,30 +311,30 @@
             );
         
     
-            var circle_marker_e77a71c954b5fc31bb855870d8a18170 = L.circleMarker(
+            var circle_marker_16b988f6a1977c3c05655831a31e2c77 = L.circleMarker(
                 [38.5132, -90.44006],
                 {"bubblingMouseEvents": true, "color": "#7a0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02424", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-        var popup_19d0119f74cfec9750ac111fe2d047db = L.popup({
+        var popup_5c80557c45e9e9592ada473c79c5a9ad = L.popup({
   "maxWidth": 200,
 });
 
         
             
-                var html_6e096fe1fa30706b9f78638e6cb1c90b = $(`<div id="html_6e096fe1fa30706b9f78638e6cb1c90b" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Fenton, MO</div>`)[0];
-                popup_19d0119f74cfec9750ac111fe2d047db.setContent(html_6e096fe1fa30706b9f78638e6cb1c90b);
+                var html_8d16d262393b831e918cca5b19502b02 = $(`<div id="html_8d16d262393b831e918cca5b19502b02" style="width: 100.0%; height: 100.0%;"><b>KEY satellite office</b><br>Fenton, MO</div>`)[0];
+                popup_5c80557c45e9e9592ada473c79c5a9ad.setContent(html_8d16d262393b831e918cca5b19502b02);
             
         
 
-        circle_marker_e77a71c954b5fc31bb855870d8a18170.bindPopup(popup_19d0119f74cfec9750ac111fe2d047db)
+        circle_marker_16b988f6a1977c3c05655831a31e2c77.bindPopup(popup_5c80557c45e9e9592ada473c79c5a9ad)
         ;
 
         
     
     
-            circle_marker_e77a71c954b5fc31bb855870d8a18170.bindTooltip(
+            circle_marker_16b988f6a1977c3c05655831a31e2c77.bindTooltip(
                 `<div>
                      KEY satellite office — Fenton, MO
                  </div>`,
@@ -344,13 +344,13 @@
             );
         
     
-            var circle_f0646243e54d119e5fde9e283066c1b3 = L.circle(
+            var circle_97cd74096350d687c1189af8c6909e16 = L.circle(
                 [32.4705814, -90.1422566],
                 {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 241401.0, "stroke": true, "weight": 3.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            circle_f0646243e54d119e5fde9e283066c1b3.bindTooltip(
+            circle_97cd74096350d687c1189af8c6909e16.bindTooltip(
                 `<div>
                      150 miles from Madison
                  </div>`,
@@ -360,14 +360,14 @@
             );
         
     
-            var marker_cd1beb0be5882952174e737f831a7acf = L.marker(
+            var marker_f6a044e5616c7e9c8c0a6a1cb4d51a48 = L.marker(
                 [34.64449444347826, -90.1422566],
                 {
 }
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var div_icon_00d5c17fa851fb759f257ba26bb67604 = L.divIcon({
+            var div_icon_f5338e5a4437f0733556c1bb4cb63993 = L.divIcon({
   "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e150 mi\u003c/div\u003e",
   "iconSize": [66, 20],
   "iconAnchor": [33, 10],
@@ -375,16 +375,16 @@
 });
         
     
-                marker_cd1beb0be5882952174e737f831a7acf.setIcon(div_icon_00d5c17fa851fb759f257ba26bb67604);
+                marker_f6a044e5616c7e9c8c0a6a1cb4d51a48.setIcon(div_icon_f5338e5a4437f0733556c1bb4cb63993);
             
     
-            var circle_3ab543e5a058831df40cc3f113059e62 = L.circle(
+            var circle_72136c92fa4299b33b9999d38dc2b778 = L.circle(
                 [32.4705814, -90.1422566],
                 {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 482802.0, "stroke": true, "weight": 3.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            circle_3ab543e5a058831df40cc3f113059e62.bindTooltip(
+            circle_72136c92fa4299b33b9999d38dc2b778.bindTooltip(
                 `<div>
                      300 miles from Madison
                  </div>`,
@@ -394,14 +394,14 @@
             );
         
     
-            var marker_15fa28751d82a8eefa115e2c989005ef = L.marker(
+            var marker_4f389f1f5546abdc994e662cdfbede69 = L.marker(
                 [36.818407486956524, -90.1422566],
                 {
 }
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var div_icon_233a16d983f42ae6f5d29018104bde89 = L.divIcon({
+            var div_icon_a124b12127df63b093ae8077434c4683 = L.divIcon({
   "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e300 mi\u003c/div\u003e",
   "iconSize": [66, 20],
   "iconAnchor": [33, 10],
@@ -409,16 +409,16 @@
 });
         
     
-                marker_15fa28751d82a8eefa115e2c989005ef.setIcon(div_icon_233a16d983f42ae6f5d29018104bde89);
+                marker_4f389f1f5546abdc994e662cdfbede69.setIcon(div_icon_a124b12127df63b093ae8077434c4683);
             
     
-            var circle_beef0cdbf705aef38efcdef59094b58c = L.circle(
+            var circle_7ee5f56005a0e1ba3e632f3eb55e09c3 = L.circle(
                 [32.4705814, -90.1422566],
                 {"bubblingMouseEvents": true, "color": "#12477e", "dashArray": "12,8", "dashOffset": null, "fill": false, "fillColor": "#12477e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.95, "radius": 724203.0, "stroke": true, "weight": 3.5}
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            circle_beef0cdbf705aef38efcdef59094b58c.bindTooltip(
+            circle_7ee5f56005a0e1ba3e632f3eb55e09c3.bindTooltip(
                 `<div>
                      450 miles from Madison
                  </div>`,
@@ -428,14 +428,14 @@
             );
         
     
-            var marker_65cfcda8936af8e45fc750d4aa65be4a = L.marker(
+            var marker_655f9db5e4d87d0957ec913d0fd30246 = L.marker(
                 [38.99232053043478, -90.1422566],
                 {
 }
-            ).addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            ).addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var div_icon_b6cba0aa6035362b6a0700e6c143a56f = L.divIcon({
+            var div_icon_d35af54fdd8ee6c3ea2b57330b4d4e3c = L.divIcon({
   "html": "\u003cdiv style=\"font-size:12px;font-weight:800;color:#12477e;background:rgba(255,255,255,0.9);border:1.5px solid #12477e;border-radius:10px;text-align:center;line-height:17px;\"\u003e450 mi\u003c/div\u003e",
   "iconSize": [66, 20],
   "iconAnchor": [33, 10],
@@ -443,818 +443,23 @@
 });
         
     
-                marker_65cfcda8936af8e45fc750d4aa65be4a.setIcon(div_icon_b6cba0aa6035362b6a0700e6c143a56f);
+                marker_655f9db5e4d87d0957ec913d0fd30246.setIcon(div_icon_d35af54fdd8ee6c3ea2b57330b4d4e3c);
             
     
-            var feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5 = L.featureGroup(
+            var feature_group_7bbc9f0b26b131417edf322d3e752f1a = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_f8b2932a984d186e7307a4991dfb62fc = L.marker(
-                [36.35425, -85.67413],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_989344e7333c8c4df8c49a5a180a551d = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_01c7f2a8ac3c39553a9a16d6b6707ace = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_817bee481a5bb1bddd27548d33643e86 = $(`<div id="html_817bee481a5bb1bddd27548d33643e86" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 56 from south of S.R. 135 (L.M. 17.15) to east of S.R. 151 (L.M. 23.52), including bridge expansion joint </b><br><b>CN262075</b> &middot; Jackson (TDOT) &middot; ~370 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_01c7f2a8ac3c39553a9a16d6b6707ace.setContent(html_817bee481a5bb1bddd27548d33643e86);
-            
-        
-
-        marker_f8b2932a984d186e7307a4991dfb62fc.bindPopup(popup_01c7f2a8ac3c39553a9a16d6b6707ace)
-        ;
-
-        
-    
-    
-            marker_f8b2932a984d186e7307a4991dfb62fc.bindTooltip(
-                `<div>
-                     CN262075 &middot; Jackson ~370 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_f8b2932a984d186e7307a4991dfb62fc.setIcon(icon_989344e7333c8c4df8c49a5a180a551d);
-            
-    
-            var marker_c671efc2e06eded3830204aad089ccfe = L.marker(
-                [36.16913, -86.78479],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_a033f5d244eed36ca182888bac0000be = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_015adbcc344bad5c4e9f8dd3222a3a48 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_e02fb782056f3380c777c8483dd8f083 = $(`<div id="html_e02fb782056f3380c777c8483dd8f083" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-65 from the Williamson County line (L.M. 0.00) to Armory Drive (L.M. 4.50), including bridge expansion joint </b><br><b>CN263070</b> &middot; Davidson (TDOT) &middot; ~319 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_015adbcc344bad5c4e9f8dd3222a3a48.setContent(html_e02fb782056f3380c777c8483dd8f083);
-            
-        
-
-        marker_c671efc2e06eded3830204aad089ccfe.bindPopup(popup_015adbcc344bad5c4e9f8dd3222a3a48)
-        ;
-
-        
-    
-    
-            marker_c671efc2e06eded3830204aad089ccfe.bindTooltip(
-                `<div>
-                     CN263070 &middot; Davidson ~319 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_c671efc2e06eded3830204aad089ccfe.setIcon(icon_a033f5d244eed36ca182888bac0000be);
-            
-    
-            var marker_0a2a864b0b40433bbb18622102a46196 = L.marker(
-                [36.47242, -86.4584],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_8dab1581068b92d1db760929831a5f03 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_d3efc993db762cc77e6a4e546bde8813 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_56f878d078b6f231549100d3fe06996a = $(`<div id="html_56f878d078b6f231549100d3fe06996a" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 174 from the Davidson County line (L.M. 0.00) to Buchanan Circle (L.M. 6.47), including bridge expansion j</b><br><b>CN263085</b> &middot; Sumner (TDOT) &middot; ~347 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_d3efc993db762cc77e6a4e546bde8813.setContent(html_56f878d078b6f231549100d3fe06996a);
-            
-        
-
-        marker_0a2a864b0b40433bbb18622102a46196.bindPopup(popup_d3efc993db762cc77e6a4e546bde8813)
-        ;
-
-        
-    
-    
-            marker_0a2a864b0b40433bbb18622102a46196.bindTooltip(
-                `<div>
-                     CN263085 &middot; Sumner ~347 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_0a2a864b0b40433bbb18622102a46196.setIcon(icon_8dab1581068b92d1db760929831a5f03);
-            
-    
-            var marker_51b0ca42ed583fd3e1a6133eb5ba9707 = L.marker(
-                [36.14943, -86.29118],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_1fd4eae64b7a78e4e90fc9041a0d371c = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_59343c04e53ce9e418231c086ef41964 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_d719451adb98a832e063ba709028bab3 = $(`<div id="html_d719451adb98a832e063ba709028bab3" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 231 (S.R. 10) from near Cedar Forest Road (L.M. 6.00) to near U.S. 70 (S.R. 24, West Main Street) (L.M. 14</b><br><b>CN263087</b> &middot; Wilson (TDOT) &middot; ~336 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_59343c04e53ce9e418231c086ef41964.setContent(html_d719451adb98a832e063ba709028bab3);
-            
-        
-
-        marker_51b0ca42ed583fd3e1a6133eb5ba9707.bindPopup(popup_59343c04e53ce9e418231c086ef41964)
-        ;
-
-        
-    
-    
-            marker_51b0ca42ed583fd3e1a6133eb5ba9707.bindTooltip(
-                `<div>
-                     CN263087 &middot; Wilson ~336 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_51b0ca42ed583fd3e1a6133eb5ba9707.setIcon(icon_1fd4eae64b7a78e4e90fc9041a0d371c);
-            
-    
-            var marker_90ba699dbac019cac44385cccdae54eb = L.marker(
-                [35.18455, -89.89461],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_645687f23e439ed5ccce42387c15c515 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_434d406917c03a276291758b9cc2555b = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_a17e06a39e46e52b54b1baed29bf4fec = $(`<div id="html_a17e06a39e46e52b54b1baed29bf4fec" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-40 from Fletcher Creek (L.M. 19.44) to near Davies Plantation Road (L.M. 22.84), including bridge expansion j</b><br><b>CN264059</b> &middot; Shelby (TDOT) &middot; ~188 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_434d406917c03a276291758b9cc2555b.setContent(html_a17e06a39e46e52b54b1baed29bf4fec);
-            
-        
-
-        marker_90ba699dbac019cac44385cccdae54eb.bindPopup(popup_434d406917c03a276291758b9cc2555b)
-        ;
-
-        
-    
-    
-            marker_90ba699dbac019cac44385cccdae54eb.bindTooltip(
-                `<div>
-                     CN264059 &middot; Shelby ~188 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_90ba699dbac019cac44385cccdae54eb.setIcon(icon_645687f23e439ed5ccce42387c15c515);
-            
-    
-            var marker_a44b7313f2cc2468f3521074c7e17628 = L.marker(
-                [35.60314, -88.11029],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_52e6ccd74c9d732ccb019dab2470f465 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_6a88480c36f298279eb93e662741beda = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_ea77e7339b667353c52249cf5e872432 = $(`<div id="html_ea77e7339b667353c52249cf5e872432" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 69 from Brooksie Access Road (L.M. 19.73) to Old Tennessee 69 (L.M. 31.50), including bridge repair work.</b><br><b>CN264067</b> &middot; Decatur (TDOT) &middot; ~246 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_6a88480c36f298279eb93e662741beda.setContent(html_ea77e7339b667353c52249cf5e872432);
-            
-        
-
-        marker_a44b7313f2cc2468f3521074c7e17628.bindPopup(popup_6a88480c36f298279eb93e662741beda)
-        ;
-
-        
-    
-    
-            marker_a44b7313f2cc2468f3521074c7e17628.bindTooltip(
-                `<div>
-                     CN264067 &middot; Decatur ~246 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_a44b7313f2cc2468f3521074c7e17628.setIcon(icon_52e6ccd74c9d732ccb019dab2470f465);
-            
-    
-            var marker_82f5c178f30fdd60f82b9fa3bb2b0f10 = L.marker(
-                [36.0542, -89.39831],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_ad8ac0262481cec1950bcf03c5088414 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_a2cd040335e509ba7e330c0be6e19d51 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_922c091354974965a275a27572b23adf = $(`<div id="html_922c091354974965a275a27572b23adf" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 51 (S.R. 3) from Sylvan Road (L.M. 11.79) to Ramp 17C to S.R. 77 (L.M. 17.87), including bridge expansion </b><br><b>CN264068</b> &middot; Dyer (TDOT) &middot; ~251 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_a2cd040335e509ba7e330c0be6e19d51.setContent(html_922c091354974965a275a27572b23adf);
-            
-        
-
-        marker_82f5c178f30fdd60f82b9fa3bb2b0f10.bindPopup(popup_a2cd040335e509ba7e330c0be6e19d51)
-        ;
-
-        
-    
-    
-            marker_82f5c178f30fdd60f82b9fa3bb2b0f10.bindTooltip(
-                `<div>
-                     CN264068 &middot; Dyer ~251 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_82f5c178f30fdd60f82b9fa3bb2b0f10.setIcon(icon_ad8ac0262481cec1950bcf03c5088414);
-            
-    
-            var marker_87ce8eb1600a3e0172e31ef832c29609 = L.marker(
-                [35.65399, -88.38767],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_3c89fc9b47935a733475ab9f650efdb9 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_f81d87356a96dfe7ba58f3b7c9077c99 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_01efbb7e15e8c299f199661a2803ff29 = $(`<div id="html_01efbb7e15e8c299f199661a2803ff29" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 412 (S.R. 20) from Thomas Road (L.M. 10.72) to S.R. 22 (L.M. 12.83), including bridge expansion joint repa</b><br><b>CN264070</b> &middot; Henderson (TDOT) &middot; ~242 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_f81d87356a96dfe7ba58f3b7c9077c99.setContent(html_01efbb7e15e8c299f199661a2803ff29);
-            
-        
-
-        marker_87ce8eb1600a3e0172e31ef832c29609.bindPopup(popup_f81d87356a96dfe7ba58f3b7c9077c99)
-        ;
-
-        
-    
-    
-            marker_87ce8eb1600a3e0172e31ef832c29609.bindTooltip(
-                `<div>
-                     CN264070 &middot; Henderson ~242 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_87ce8eb1600a3e0172e31ef832c29609.setIcon(icon_3c89fc9b47935a733475ab9f650efdb9);
-            
-    
-            var marker_8ce5a95a2f5ab3b4d2e3d6c8184c313c = L.marker(
-                [35.60237433125031, -88.34038551269684],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_4f30c3b6e7b7b6c6f9a8ed09d92fd1a7 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_70ade631d3621de11b1e2b67390cba85 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_37d84b334198489cf048b2828b6db4dd = $(`<div id="html_37d84b334198489cf048b2828b6db4dd" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-40 from the Madison County line (L.M. 0.00) to near MM 100.4 (L.M. 5.38), including bridge expansion joint re</b><br><b>CN264074</b> &middot; Henderson (TDOT) &middot; ~242 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_70ade631d3621de11b1e2b67390cba85.setContent(html_37d84b334198489cf048b2828b6db4dd);
-            
-        
-
-        marker_8ce5a95a2f5ab3b4d2e3d6c8184c313c.bindPopup(popup_70ade631d3621de11b1e2b67390cba85)
-        ;
-
-        
-    
-    
-            marker_8ce5a95a2f5ab3b4d2e3d6c8184c313c.bindTooltip(
-                `<div>
-                     CN264074 &middot; Henderson ~242 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_8ce5a95a2f5ab3b4d2e3d6c8184c313c.setIcon(icon_4f30c3b6e7b7b6c6f9a8ed09d92fd1a7);
-            
-    
-            var marker_f1269f48bd0150935aedd8206adb78b3 = L.marker(
-                [35.60606, -88.83342],
-                {
-}
-            ).addTo(feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5);
-        
-    
-            var icon_493153c80753a4c4701498d159ba1188 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_d2dcb5604c0d7feaf3f6885dccb93d3f = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_90893d77b338b1188723beeb9f759168 = $(`<div id="html_90893d77b338b1188723beeb9f759168" style="width: 100.0%; height: 100.0%;"><b>The grading, drainage, construction of a welded steel girder bridge, lighting and signals, ITS, and paving on I-40 at Christmasvil</b><br><b>CN264076</b> &middot; Madison (TDOT) &middot; ~229 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_d2dcb5604c0d7feaf3f6885dccb93d3f.setContent(html_90893d77b338b1188723beeb9f759168);
-            
-        
-
-        marker_f1269f48bd0150935aedd8206adb78b3.bindPopup(popup_d2dcb5604c0d7feaf3f6885dccb93d3f)
-        ;
-
-        
-    
-    
-            marker_f1269f48bd0150935aedd8206adb78b3.bindTooltip(
-                `<div>
-                     CN264076 &middot; Madison ~229 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_f1269f48bd0150935aedd8206adb78b3.setIcon(icon_493153c80753a4c4701498d159ba1188);
-            
-    
-            feature_group_d5f1dff81f0d9959afe876e2f4c5b9c5.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
-        
-    
-            var feature_group_757bf8797f21989ee780ab9130a78d46 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var marker_78ee68140f64b6be8cab5128c295c0f5 = L.marker(
-                [31.53522, -90.45357],
-                {
-}
-            ).addTo(feature_group_757bf8797f21989ee780ab9130a78d46);
-        
-    
-            var icon_579567ad3c8a67af46cba02ac98a5204 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_1dfdb1f6361f6bcdc4e1737783886ea0 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_42931c9e5bde6cf6fe3ed6327cf2d4db = $(`<div id="html_42931c9e5bde6cf6fe3ed6327cf2d4db" style="width: 100.0%; height: 100.0%;"><b>0.110 mi. of Bridge and Gravel Approaches</b><br><b>LSBP-43(57)</b> &middot; Lincoln (MSAID) &middot; ~67 mi<br>Bids 2026-12-15<br><a href='https://www.osarc.ms.gov/Docs/proj_info/LSBP-43(57).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_1dfdb1f6361f6bcdc4e1737783886ea0.setContent(html_42931c9e5bde6cf6fe3ed6327cf2d4db);
-            
-        
-
-        marker_78ee68140f64b6be8cab5128c295c0f5.bindPopup(popup_1dfdb1f6361f6bcdc4e1737783886ea0)
-        ;
-
-        
-    
-    
-            marker_78ee68140f64b6be8cab5128c295c0f5.bindTooltip(
-                `<div>
-                     LSBP-43(57) &middot; Lincoln ~67 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_78ee68140f64b6be8cab5128c295c0f5.setIcon(icon_579567ad3c8a67af46cba02ac98a5204);
-            
-    
-            var marker_75e0da9e438ed66523add96dda1ca9e7 = L.marker(
-                [33.54979, -90.29493],
-                {
-}
-            ).addTo(feature_group_757bf8797f21989ee780ab9130a78d46);
-        
-    
-            var icon_d770f414842152196637b24fafe70a30 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_85f0d8ed39caf97f2231c2ced0f39e33 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_d81368bc971941eee7d717be06081ae0 = $(`<div id="html_d81368bc971941eee7d717be06081ae0" style="width: 100.0%; height: 100.0%;"><b>0.095 mi. of Box Bridge and Approaches</b><br><b>SAP-36(84)</b> &middot; Leflore (MSAID) &middot; ~75 mi<br>Bids 2026-12-15<br><a href='https://www.osarc.ms.gov/Docs/proj_info/SAP-36(84).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_85f0d8ed39caf97f2231c2ced0f39e33.setContent(html_d81368bc971941eee7d717be06081ae0);
-            
-        
-
-        marker_75e0da9e438ed66523add96dda1ca9e7.bindPopup(popup_85f0d8ed39caf97f2231c2ced0f39e33)
-        ;
-
-        
-    
-    
-            marker_75e0da9e438ed66523add96dda1ca9e7.bindTooltip(
-                `<div>
-                     SAP-36(84) &middot; Leflore ~75 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_75e0da9e438ed66523add96dda1ca9e7.setIcon(icon_d770f414842152196637b24fafe70a30);
-            
-    
-            var marker_7dc7b6b09962ee12e9445627cf320ba2 = L.marker(
-                [33.47142, -88.43972],
-                {
-}
-            ).addTo(feature_group_757bf8797f21989ee780ab9130a78d46);
-        
-    
-            var icon_76e3c79ee1e293cc3351e8a8b2cd57f2 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_aab391293ec235184ea660c34d926285 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_de205a7154b7c6121c18fbe605966beb = $(`<div id="html_de205a7154b7c6121c18fbe605966beb" style="width: 100.0%; height: 100.0%;"><b>0.189 mi. of Box Bridge Gravel and Approaches</b><br><b>LSBP-44(17)</b> &middot; Lowndes (MSAID) &middot; ~121 mi<br>Bids 2026-11-24<br><a href='https://www.osarc.ms.gov/Docs/proj_info/LSBP-44(17).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_aab391293ec235184ea660c34d926285.setContent(html_de205a7154b7c6121c18fbe605966beb);
-            
-        
-
-        marker_7dc7b6b09962ee12e9445627cf320ba2.bindPopup(popup_aab391293ec235184ea660c34d926285)
-        ;
-
-        
-    
-    
-            marker_7dc7b6b09962ee12e9445627cf320ba2.bindTooltip(
-                `<div>
-                     LSBP-44(17) &middot; Lowndes ~121 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_7dc7b6b09962ee12e9445627cf320ba2.setIcon(icon_76e3c79ee1e293cc3351e8a8b2cd57f2);
-            
-    
-            var marker_36eb86451ba652f59bf6b0d149e8e9a0 = L.marker(
-                [32.75014, -88.62563],
-                {
-}
-            ).addTo(feature_group_757bf8797f21989ee780ab9130a78d46);
-        
-    
-            var icon_cb1611cd46b3ed7de4dee6bb54aacc7a = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_c768aeffd7dc7f1f702879692b84aeb2 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_5fd9e6173279dd746691e785af8cc9af = $(`<div id="html_5fd9e6173279dd746691e785af8cc9af" style="width: 100.0%; height: 100.0%;"><b>0.200 mi. of Bridge and Approaches</b><br><b>ERBR-35(02)</b> &middot; Kemper (MSAID) &middot; ~90 mi<br>Bids 2026-12-02<br><a href='https://www.osarc.ms.gov/Docs/proj_info/ERBRF/ERBR-35(02).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_c768aeffd7dc7f1f702879692b84aeb2.setContent(html_5fd9e6173279dd746691e785af8cc9af);
-            
-        
-
-        marker_36eb86451ba652f59bf6b0d149e8e9a0.bindPopup(popup_c768aeffd7dc7f1f702879692b84aeb2)
-        ;
-
-        
-    
-    
-            marker_36eb86451ba652f59bf6b0d149e8e9a0.bindTooltip(
-                `<div>
-                     ERBR-35(02) &middot; Kemper ~90 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_36eb86451ba652f59bf6b0d149e8e9a0.setIcon(icon_cb1611cd46b3ed7de4dee6bb54aacc7a);
-            
-    
-            var marker_dc1f31fee1c134e71f1e4ebab8861604 = L.marker(
-                [33.49817433125031, -90.24764551269683],
-                {
-}
-            ).addTo(feature_group_757bf8797f21989ee780ab9130a78d46);
-        
-    
-            var icon_b8c53d20d5804423d78856f8427e50e6 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_3932757008afc7b4016db10069b24ae8 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_c7a5a6e2513eee0838f3647a7ad8dd7a = $(`<div id="html_c7a5a6e2513eee0838f3647a7ad8dd7a" style="width: 100.0%; height: 100.0%;"><b>0.181 mi. of Bridge and Approaches</b><br><b>SAP-42(69)</b> &middot; Leflore (MSAID) &middot; ~75 mi<br>Bids 2026-12-07<br><a href='https://www.osarc.ms.gov/Docs/proj_info/SAP-42(69).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_3932757008afc7b4016db10069b24ae8.setContent(html_c7a5a6e2513eee0838f3647a7ad8dd7a);
-            
-        
-
-        marker_dc1f31fee1c134e71f1e4ebab8861604.bindPopup(popup_3932757008afc7b4016db10069b24ae8)
-        ;
-
-        
-    
-    
-            marker_dc1f31fee1c134e71f1e4ebab8861604.bindTooltip(
-                `<div>
-                     SAP-42(69) &middot; Leflore ~75 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_dc1f31fee1c134e71f1e4ebab8861604.setIcon(icon_b8c53d20d5804423d78856f8427e50e6);
-            
-    
-            feature_group_757bf8797f21989ee780ab9130a78d46.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
-        
-    
-            var feature_group_384aef3571e1f9e6828fc32829f2f660 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var marker_8f93900ca99d923cd769adc78fd5bf1a = L.marker(
-                [34.42369, -90.85559],
-                {
-}
-            ).addTo(feature_group_384aef3571e1f9e6828fc32829f2f660);
-        
-    
-            var icon_bd08b91afbe45667bcee8bea74d91daa = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_efc464bc0f2e24de4de2dbc2192973d2 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_3a74da424474dd7c98c1926e962cb528 = $(`<div id="html_3a74da424474dd7c98c1926e962cb528" style="width: 100.0%; height: 100.0%;"><b>Hwy. 49 Mississippi River Bridge Rehab. (S) — Rehabilitate the mississippi river bridge including deck replacement and polymer ove</b><br><b>110812</b> &middot; Phillips (ARDOT) &middot; ~141 mi<br>Bids 2027-01-20<br><a href='https://media.ark.org/ardot/110812_3-proposal.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_efc464bc0f2e24de4de2dbc2192973d2.setContent(html_3a74da424474dd7c98c1926e962cb528);
-            
-        
-
-        marker_8f93900ca99d923cd769adc78fd5bf1a.bindPopup(popup_efc464bc0f2e24de4de2dbc2192973d2)
-        ;
-
-        
-    
-    
-            marker_8f93900ca99d923cd769adc78fd5bf1a.bindTooltip(
-                `<div>
-                     110812 &middot; Phillips ~141 mi
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-                marker_8f93900ca99d923cd769adc78fd5bf1a.setIcon(icon_bd08b91afbe45667bcee8bea74d91daa);
-            
-    
-            feature_group_384aef3571e1f9e6828fc32829f2f660.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
-        
-    
-            var feature_group_da41c22f37da659305816211b152518c = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var marker_871c9e4c9bacc65b3414372b5176251b = L.marker(
+            var marker_5cb44479b659d076067ec20c99f7d952 = L.marker(
                 [34.64955, -89.94311],
                 {
 }
-            ).addTo(feature_group_da41c22f37da659305816211b152518c);
+            ).addTo(feature_group_7bbc9f0b26b131417edf322d3e752f1a);
         
     
-            var icon_ef075185a0a4796a8a8cb705c7c45473 = L.AwesomeMarkers.icon(
+            var icon_1d4339d6eb56b51f6c6b672da14241b1 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -1265,24 +470,24 @@
             );
         
     
-        var popup_f5452346906818dd1a4fad7e6b555853 = L.popup({
+        var popup_e386ff8c2b26b7e4d734a32e0b467b01 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_efd639270c35fb78afe6c51519d203ad = $(`<div id="html_efd639270c35fb78afe6c51519d203ad" style="width: 100.0%; height: 100.0%;"><b>Elliott &amp; Britt — ERBR-69(03) Emergency Road and Bridge Repair</b><br><b>Elliott &amp; Britt/21149</b> &middot; Tate (MSLOCAL) &middot; ~151 mi<br>Bids 2026-11-13<br><a href='https://www.elliottbrittplans.com/projects/21149/details/erbr-6903-emergency-road-and-bridge-repair' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_f5452346906818dd1a4fad7e6b555853.setContent(html_efd639270c35fb78afe6c51519d203ad);
+                var html_bd401f1fd956e20e827bdafe67d9a59d = $(`<div id="html_bd401f1fd956e20e827bdafe67d9a59d" style="width: 100.0%; height: 100.0%;"><b>Elliott &amp; Britt — ERBR-69(03) Emergency Road and Bridge Repair</b><br><b>Elliott &amp; Britt/21149</b> &middot; Tate (MSLOCAL) &middot; ~151 mi<br>Bids 2026-11-13<br><a href='https://www.elliottbrittplans.com/projects/21149/details/erbr-6903-emergency-road-and-bridge-repair' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_e386ff8c2b26b7e4d734a32e0b467b01.setContent(html_bd401f1fd956e20e827bdafe67d9a59d);
             
         
 
-        marker_871c9e4c9bacc65b3414372b5176251b.bindPopup(popup_f5452346906818dd1a4fad7e6b555853)
+        marker_5cb44479b659d076067ec20c99f7d952.bindPopup(popup_e386ff8c2b26b7e4d734a32e0b467b01)
         ;
 
         
     
     
-            marker_871c9e4c9bacc65b3414372b5176251b.bindTooltip(
+            marker_5cb44479b659d076067ec20c99f7d952.bindTooltip(
                 `<div>
                      Elliott &amp; Britt/21149 &middot; Tate ~151 mi
                  </div>`,
@@ -1292,17 +497,17 @@
             );
         
     
-                marker_871c9e4c9bacc65b3414372b5176251b.setIcon(icon_ef075185a0a4796a8a8cb705c7c45473);
+                marker_5cb44479b659d076067ec20c99f7d952.setIcon(icon_1d4339d6eb56b51f6c6b672da14241b1);
             
     
-            var marker_470ae752c80842485fb3af79ed544088 = L.marker(
+            var marker_7106ba4dcf3a4effa2df91aba5fb5b07 = L.marker(
                 [34.35308, -89.48538],
                 {
 }
-            ).addTo(feature_group_da41c22f37da659305816211b152518c);
+            ).addTo(feature_group_7bbc9f0b26b131417edf322d3e752f1a);
         
     
-            var icon_c2ca0047a7195115ba27c50e2a9291a7 = L.AwesomeMarkers.icon(
+            var icon_c0a8f68704868ff2dd2a4488054d75cd = L.AwesomeMarkers.icon(
                 {
   "markerColor": "gray",
   "iconColor": "white",
@@ -1313,24 +518,24 @@
             );
         
     
-        var popup_c41b7fcf034f4608d68d299eb86fe7c8 = L.popup({
+        var popup_82886e3d38c342c9829ed69b9d8269f5 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_0765718759ff96ce5fc52f41075b5f70 = $(`<div id="html_0765718759ff96ce5fc52f41075b5f70" style="width: 100.0%; height: 100.0%;"><b>Oxford — ENG1Q27-DR1 CANNON ROAD - PROPOSED BRIDGE</b><br><b>Oxford/21163</b> &middot; Lafayette (MSLOCAL) &middot; ~135 mi<br>Bids 2026-11-24<br><a href='https://www.oxfordmsbids.com/projects/21163/details/eng1q27-dr1-cannon-road-proposed-bridge' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_c41b7fcf034f4608d68d299eb86fe7c8.setContent(html_0765718759ff96ce5fc52f41075b5f70);
+                var html_47d178b493a670abebfef8e37e167eb0 = $(`<div id="html_47d178b493a670abebfef8e37e167eb0" style="width: 100.0%; height: 100.0%;"><b>Oxford — ENG1Q27-DR1 CANNON ROAD - PROPOSED BRIDGE</b><br><b>Oxford/21163</b> &middot; Lafayette (MSLOCAL) &middot; ~135 mi<br>Bids 2026-11-24<br><a href='https://www.oxfordmsbids.com/projects/21163/details/eng1q27-dr1-cannon-road-proposed-bridge' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_82886e3d38c342c9829ed69b9d8269f5.setContent(html_47d178b493a670abebfef8e37e167eb0);
             
         
 
-        marker_470ae752c80842485fb3af79ed544088.bindPopup(popup_c41b7fcf034f4608d68d299eb86fe7c8)
+        marker_7106ba4dcf3a4effa2df91aba5fb5b07.bindPopup(popup_82886e3d38c342c9829ed69b9d8269f5)
         ;
 
         
     
     
-            marker_470ae752c80842485fb3af79ed544088.bindTooltip(
+            marker_7106ba4dcf3a4effa2df91aba5fb5b07.bindTooltip(
                 `<div>
                      Oxford/21163 &middot; Lafayette ~135 mi
                  </div>`,
@@ -1340,17 +545,17 @@
             );
         
     
-                marker_470ae752c80842485fb3af79ed544088.setIcon(icon_c2ca0047a7195115ba27c50e2a9291a7);
+                marker_7106ba4dcf3a4effa2df91aba5fb5b07.setIcon(icon_c0a8f68704868ff2dd2a4488054d75cd);
             
     
-            var marker_0d7c0a9f4fa9877387edaa473eb813c9 = L.marker(
+            var marker_a856c9c4055f9cbcaffa54457bfc2811 = L.marker(
                 [34.30146433125031, -89.43809551269685],
                 {
 }
-            ).addTo(feature_group_da41c22f37da659305816211b152518c);
+            ).addTo(feature_group_7bbc9f0b26b131417edf322d3e752f1a);
         
     
-            var icon_87e316940353ac41f8735a5b8572f1a5 = L.AwesomeMarkers.icon(
+            var icon_b6b18aa20d39592bc71d5aa7c146a882 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1361,24 +566,24 @@
             );
         
     
-        var popup_780bd4656d1a6b979925b46449097151 = L.popup({
+        var popup_0a8bf908793ab36a81d89feae8b2a995 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_f0a40b7e5fcbd5a12089983151591124 = $(`<div id="html_f0a40b7e5fcbd5a12089983151591124" style="width: 100.0%; height: 100.0%;"><b>Elliott &amp; Britt — LCBR-36(02) Lafayette County Bridge Replacement</b><br><b>Elliott &amp; Britt/21207</b> &middot; Lafayette (MSLOCAL) &middot; ~135 mi<br>Bids 2026-12-03<br><a href='https://www.elliottbrittplans.com/projects/21207/details/lcbr-3602-lafayette-county-bridge-replacement' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_780bd4656d1a6b979925b46449097151.setContent(html_f0a40b7e5fcbd5a12089983151591124);
+                var html_0eabdebe4462dd500c6975970fa37c06 = $(`<div id="html_0eabdebe4462dd500c6975970fa37c06" style="width: 100.0%; height: 100.0%;"><b>Elliott &amp; Britt — LCBR-36(02) Lafayette County Bridge Replacement</b><br><b>Elliott &amp; Britt/21207</b> &middot; Lafayette (MSLOCAL) &middot; ~135 mi<br>Bids 2026-12-03<br><a href='https://www.elliottbrittplans.com/projects/21207/details/lcbr-3602-lafayette-county-bridge-replacement' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_0a8bf908793ab36a81d89feae8b2a995.setContent(html_0eabdebe4462dd500c6975970fa37c06);
             
         
 
-        marker_0d7c0a9f4fa9877387edaa473eb813c9.bindPopup(popup_780bd4656d1a6b979925b46449097151)
+        marker_a856c9c4055f9cbcaffa54457bfc2811.bindPopup(popup_0a8bf908793ab36a81d89feae8b2a995)
         ;
 
         
     
     
-            marker_0d7c0a9f4fa9877387edaa473eb813c9.bindTooltip(
+            marker_a856c9c4055f9cbcaffa54457bfc2811.bindTooltip(
                 `<div>
                      Elliott &amp; Britt/21207 &middot; Lafayette ~135 mi
                  </div>`,
@@ -1388,17 +593,17 @@
             );
         
     
-                marker_0d7c0a9f4fa9877387edaa473eb813c9.setIcon(icon_87e316940353ac41f8735a5b8572f1a5);
+                marker_a856c9c4055f9cbcaffa54457bfc2811.setIcon(icon_b6b18aa20d39592bc71d5aa7c146a882);
             
     
-            var marker_cc30fbec66ee8ee9017414647933722d = L.marker(
+            var marker_5eb7fdcca870fd54d247acd0dec7d6b8 = L.marker(
                 [32.26779, -90.46602],
                 {
 }
-            ).addTo(feature_group_da41c22f37da659305816211b152518c);
+            ).addTo(feature_group_7bbc9f0b26b131417edf322d3e752f1a);
         
     
-            var icon_9bebc0ea7b7140063a2f9a67a2e5901f = L.AwesomeMarkers.icon(
+            var icon_0c0b33546d3e0e97f2c22d984265d3b2 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1409,24 +614,24 @@
             );
         
     
-        var popup_4a7a34a62bec84845ebfc0ae17cd989e = L.popup({
+        var popup_f4566876dd01feab468e446a0d4af702 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_e12a0d5dcc9384ce6f7d0d53dd926081 = $(`<div id="html_e12a0d5dcc9384ce6f7d0d53dd926081" style="width: 100.0%; height: 100.0%;"><b>Jackson — 109860-701000-2026-9-15 Replace Bridge McCluer Road - Cany Creek Tributary</b><br><b>Jackson/21214</b> &middot; Hinds (MSLOCAL) &middot; ~24 mi<br>Bids 2026-12-15<br><a href='https://www.jacksonmsbids.com/projects/21214/details/109860-701000-2026-9-15-replace-bridge-mccluer-road-cany-creek-tributary' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_4a7a34a62bec84845ebfc0ae17cd989e.setContent(html_e12a0d5dcc9384ce6f7d0d53dd926081);
+                var html_939796a657942709532fc518e2b013af = $(`<div id="html_939796a657942709532fc518e2b013af" style="width: 100.0%; height: 100.0%;"><b>Jackson — 109860-701000-2026-9-15 Replace Bridge McCluer Road - Cany Creek Tributary</b><br><b>Jackson/21214</b> &middot; Hinds (MSLOCAL) &middot; ~24 mi<br>Bids 2026-12-15<br><a href='https://www.jacksonmsbids.com/projects/21214/details/109860-701000-2026-9-15-replace-bridge-mccluer-road-cany-creek-tributary' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_f4566876dd01feab468e446a0d4af702.setContent(html_939796a657942709532fc518e2b013af);
             
         
 
-        marker_cc30fbec66ee8ee9017414647933722d.bindPopup(popup_4a7a34a62bec84845ebfc0ae17cd989e)
+        marker_5eb7fdcca870fd54d247acd0dec7d6b8.bindPopup(popup_f4566876dd01feab468e446a0d4af702)
         ;
 
         
     
     
-            marker_cc30fbec66ee8ee9017414647933722d.bindTooltip(
+            marker_5eb7fdcca870fd54d247acd0dec7d6b8.bindTooltip(
                 `<div>
                      Jackson/21214 &middot; Hinds ~24 mi
                  </div>`,
@@ -1436,17 +641,17 @@
             );
         
     
-                marker_cc30fbec66ee8ee9017414647933722d.setIcon(icon_9bebc0ea7b7140063a2f9a67a2e5901f);
+                marker_5eb7fdcca870fd54d247acd0dec7d6b8.setIcon(icon_0c0b33546d3e0e97f2c22d984265d3b2);
             
     
-            var marker_8ae982848be73e77c3e87d56343b8e37 = L.marker(
+            var marker_d05618561e61047a0ba7b3a1d2cde91f = L.marker(
                 [32.21617433125031, -90.41873551269684],
                 {
 }
-            ).addTo(feature_group_da41c22f37da659305816211b152518c);
+            ).addTo(feature_group_7bbc9f0b26b131417edf322d3e752f1a);
         
     
-            var icon_24256616938bf6ef969d74bdedd44118 = L.AwesomeMarkers.icon(
+            var icon_d194de2057a091d66ef046b5a601cae4 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1457,24 +662,24 @@
             );
         
     
-        var popup_faf9a58ff306ed56751f5b6a56e00b32 = L.popup({
+        var popup_86cd851ad3063561f40dbafd7bbc04eb = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_478a3ff9c7a9eb8154c1f6e1c98d105c = $(`<div id="html_478a3ff9c7a9eb8154c1f6e1c98d105c" style="width: 100.0%; height: 100.0%;"><b>Jackson — STP-7287-00(001) McClure Road Bridge Replacement</b><br><b>Jackson/21257</b> &middot; Hinds (MSLOCAL) &middot; ~24 mi<br>Bids 2026-12-15<br><a href='https://www.jacksonmsbids.com/projects/21257/details/stp-7287-00001-mcclure-road-bridge-replacement' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_faf9a58ff306ed56751f5b6a56e00b32.setContent(html_478a3ff9c7a9eb8154c1f6e1c98d105c);
+                var html_5876ac01c062b574e4c5dd6ecdf76612 = $(`<div id="html_5876ac01c062b574e4c5dd6ecdf76612" style="width: 100.0%; height: 100.0%;"><b>Jackson — STP-7287-00(001) McClure Road Bridge Replacement</b><br><b>Jackson/21257</b> &middot; Hinds (MSLOCAL) &middot; ~24 mi<br>Bids 2026-12-15<br><a href='https://www.jacksonmsbids.com/projects/21257/details/stp-7287-00001-mcclure-road-bridge-replacement' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_86cd851ad3063561f40dbafd7bbc04eb.setContent(html_5876ac01c062b574e4c5dd6ecdf76612);
             
         
 
-        marker_8ae982848be73e77c3e87d56343b8e37.bindPopup(popup_faf9a58ff306ed56751f5b6a56e00b32)
+        marker_d05618561e61047a0ba7b3a1d2cde91f.bindPopup(popup_86cd851ad3063561f40dbafd7bbc04eb)
         ;
 
         
     
     
-            marker_8ae982848be73e77c3e87d56343b8e37.bindTooltip(
+            marker_d05618561e61047a0ba7b3a1d2cde91f.bindTooltip(
                 `<div>
                      Jackson/21257 &middot; Hinds ~24 mi
                  </div>`,
@@ -1484,26 +689,26 @@
             );
         
     
-                marker_8ae982848be73e77c3e87d56343b8e37.setIcon(icon_24256616938bf6ef969d74bdedd44118);
+                marker_d05618561e61047a0ba7b3a1d2cde91f.setIcon(icon_d194de2057a091d66ef046b5a601cae4);
             
     
-            feature_group_da41c22f37da659305816211b152518c.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_7bbc9f0b26b131417edf322d3e752f1a.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var feature_group_1813bb25b0c5e78bb01f43a3ef015ad6 = L.featureGroup(
+            var feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_8281c4d36363d68153a7c79ea3aef0cb = L.marker(
+            var marker_65beaf2c4d0786304307f2d06abd82c4 = L.marker(
                 [30.41002, -89.95196],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_a269e95ff160260b8920a5b708f91bfe = L.AwesomeMarkers.icon(
+            var icon_b49c0267dd2ff0d062080260addd189e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -1514,24 +719,24 @@
             );
         
     
-        var popup_79e66f0706f2d5069e5640246bf1c2fc = L.popup({
+        var popup_6848a09b9e0407cb156b8e5a98025e14 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_98ebb8ad7986480e4a4b4f07edfc4158 = $(`<div id="html_98ebb8ad7986480e4a4b4f07edfc4158" style="width: 100.0%; height: 100.0%;"><b>LA 3241: I-12/LA 434 INTERCHANGE TO LA 36</b><br><b>H.004957.6</b> &middot; St. Tammany (LADOTD) &middot; ~143 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_0:~:text=LA%203241%3A%20I-12%2FLA%20434%20INTERCHANGE%20TO%20LA%2036' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_79e66f0706f2d5069e5640246bf1c2fc.setContent(html_98ebb8ad7986480e4a4b4f07edfc4158);
+                var html_dce2cb24065c42410c05d14cb79b353a = $(`<div id="html_dce2cb24065c42410c05d14cb79b353a" style="width: 100.0%; height: 100.0%;"><b>LA 3241: I-12/LA 434 INTERCHANGE TO LA 36</b><br><b>H.004957.6</b> &middot; St. Tammany (LADOTD) &middot; ~143 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_0:~:text=LA%203241%3A%20I-12%2FLA%20434%20INTERCHANGE%20TO%20LA%2036' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_6848a09b9e0407cb156b8e5a98025e14.setContent(html_dce2cb24065c42410c05d14cb79b353a);
             
         
 
-        marker_8281c4d36363d68153a7c79ea3aef0cb.bindPopup(popup_79e66f0706f2d5069e5640246bf1c2fc)
+        marker_65beaf2c4d0786304307f2d06abd82c4.bindPopup(popup_6848a09b9e0407cb156b8e5a98025e14)
         ;
 
         
     
     
-            marker_8281c4d36363d68153a7c79ea3aef0cb.bindTooltip(
+            marker_65beaf2c4d0786304307f2d06abd82c4.bindTooltip(
                 `<div>
                      H.004957.6 &middot; St. Tammany ~143 mi
                  </div>`,
@@ -1541,17 +746,17 @@
             );
         
     
-                marker_8281c4d36363d68153a7c79ea3aef0cb.setIcon(icon_a269e95ff160260b8920a5b708f91bfe);
+                marker_65beaf2c4d0786304307f2d06abd82c4.setIcon(icon_b49c0267dd2ff0d062080260addd189e);
             
     
-            var marker_4cebd277c342843a7f25ebf569fa22ea = L.marker(
+            var marker_b3035bb0af9e2c3d384c3f94f33cfce0 = L.marker(
                 [32.34095, -93.04115],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_2d96dbf94f9dc21683468e60116d6fe2 = L.AwesomeMarkers.icon(
+            var icon_45fddd4416272f75ab6e7a8d208911f0 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1562,24 +767,24 @@
             );
         
     
-        var popup_28fcda7d9590eec7b0b041782e4966b4 = L.popup({
+        var popup_d612274716b85d9e9de71f7d03de8e34 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_b22199ae35b8030962c2e276c67ee228 = $(`<div id="html_b22199ae35b8030962c2e276c67ee228" style="width: 100.0%; height: 100.0%;"><b>LA 153: TOPY CREEK RELIEF &amp; DRAIN BRS</b><br><b>H.014231.6</b> &middot; Bienville (LADOTD) &middot; ~169 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_2:~:text=LA%20153%3A%20TOPY%20CREEK%20RELIEF%20%26%20DRAIN%20BRS' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_28fcda7d9590eec7b0b041782e4966b4.setContent(html_b22199ae35b8030962c2e276c67ee228);
+                var html_3b7eb7890d863b9a172b85a878b2cd0c = $(`<div id="html_3b7eb7890d863b9a172b85a878b2cd0c" style="width: 100.0%; height: 100.0%;"><b>LA 153: TOPY CREEK RELIEF &amp; DRAIN BRS</b><br><b>H.014231.6</b> &middot; Bienville (LADOTD) &middot; ~169 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_2:~:text=LA%20153%3A%20TOPY%20CREEK%20RELIEF%20%26%20DRAIN%20BRS' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_d612274716b85d9e9de71f7d03de8e34.setContent(html_3b7eb7890d863b9a172b85a878b2cd0c);
             
         
 
-        marker_4cebd277c342843a7f25ebf569fa22ea.bindPopup(popup_28fcda7d9590eec7b0b041782e4966b4)
+        marker_b3035bb0af9e2c3d384c3f94f33cfce0.bindPopup(popup_d612274716b85d9e9de71f7d03de8e34)
         ;
 
         
     
     
-            marker_4cebd277c342843a7f25ebf569fa22ea.bindTooltip(
+            marker_b3035bb0af9e2c3d384c3f94f33cfce0.bindTooltip(
                 `<div>
                      H.014231.6 &middot; Bienville ~169 mi
                  </div>`,
@@ -1589,17 +794,17 @@
             );
         
     
-                marker_4cebd277c342843a7f25ebf569fa22ea.setIcon(icon_2d96dbf94f9dc21683468e60116d6fe2);
+                marker_b3035bb0af9e2c3d384c3f94f33cfce0.setIcon(icon_45fddd4416272f75ab6e7a8d208911f0);
             
     
-            var marker_6c891c3015956a4f68ef9c415991c972 = L.marker(
+            var marker_7959f6a032be9c63b8e3c009635c7bdb = L.marker(
                 [30.26953, -92.81622],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_c73a454bf83bf5ca760ab7c252eac782 = L.AwesomeMarkers.icon(
+            var icon_5f36f23d3d58c9457d4f6bd104924370 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1610,24 +815,24 @@
             );
         
     
-        var popup_9e2c00a35dfad2bd26d92a304e15beba = L.popup({
+        var popup_b8754f13c304d8d5282fc428e7e45c88 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_d7fcaa3cbb2585c2c5afcc550db3277b = $(`<div id="html_d7fcaa3cbb2585c2c5afcc550db3277b" style="width: 100.0%; height: 100.0%;"><b>WEST RACCA RD OVER E GRAND MARAIS DITCH</b><br><b>H.014235.6</b> &middot; Jefferson Davis (LADOTD) &middot; ~219 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_3:~:text=WEST%20RACCA%20RD%20OVER%20E%20GRAND%20MARAIS%20DITCH' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_9e2c00a35dfad2bd26d92a304e15beba.setContent(html_d7fcaa3cbb2585c2c5afcc550db3277b);
+                var html_ab41f127eaaa3b517ef9406909a3d89f = $(`<div id="html_ab41f127eaaa3b517ef9406909a3d89f" style="width: 100.0%; height: 100.0%;"><b>WEST RACCA RD OVER E GRAND MARAIS DITCH</b><br><b>H.014235.6</b> &middot; Jefferson Davis (LADOTD) &middot; ~219 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_3:~:text=WEST%20RACCA%20RD%20OVER%20E%20GRAND%20MARAIS%20DITCH' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_b8754f13c304d8d5282fc428e7e45c88.setContent(html_ab41f127eaaa3b517ef9406909a3d89f);
             
         
 
-        marker_6c891c3015956a4f68ef9c415991c972.bindPopup(popup_9e2c00a35dfad2bd26d92a304e15beba)
+        marker_7959f6a032be9c63b8e3c009635c7bdb.bindPopup(popup_b8754f13c304d8d5282fc428e7e45c88)
         ;
 
         
     
     
-            marker_6c891c3015956a4f68ef9c415991c972.bindTooltip(
+            marker_7959f6a032be9c63b8e3c009635c7bdb.bindTooltip(
                 `<div>
                      H.014235.6 &middot; Jefferson Davis ~219 mi
                  </div>`,
@@ -1637,17 +842,17 @@
             );
         
     
-                marker_6c891c3015956a4f68ef9c415991c972.setIcon(icon_c73a454bf83bf5ca760ab7c252eac782);
+                marker_7959f6a032be9c63b8e3c009635c7bdb.setIcon(icon_5f36f23d3d58c9457d4f6bd104924370);
             
     
-            var marker_02c049c3e41e294f6cfbea2da95cda85 = L.marker(
+            var marker_c79e37918ac6dc72a7a06e7bfc16fbe7 = L.marker(
                 [32.30429, -92.5617],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_ef846eac84198d9730c87eb3dc6d233c = L.AwesomeMarkers.icon(
+            var icon_a2a044504d33fb4894ade2ec9c018af0 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1658,24 +863,24 @@
             );
         
     
-        var popup_fdfcefe5efe909134c68496a20b9bd5c = L.popup({
+        var popup_38ac95fa20bd064d104b12081a243613 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_ad264d370d43a0cd421748c63cc11a3a = $(`<div id="html_ad264d370d43a0cd421748c63cc11a3a" style="width: 100.0%; height: 100.0%;"><b>LA 556: BRIDGES NEAR CHOUDRANT</b><br><b>H.014264.6</b> &middot; Jackson; Lincoln (LADOTD) &middot; ~142 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_4:~:text=LA%20556%3A%20BRIDGES%20NEAR%20CHOUDRANT' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_fdfcefe5efe909134c68496a20b9bd5c.setContent(html_ad264d370d43a0cd421748c63cc11a3a);
+                var html_00e101e6ef81cc96155f26a0a3ed8669 = $(`<div id="html_00e101e6ef81cc96155f26a0a3ed8669" style="width: 100.0%; height: 100.0%;"><b>LA 556: BRIDGES NEAR CHOUDRANT</b><br><b>H.014264.6</b> &middot; Jackson; Lincoln (LADOTD) &middot; ~142 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_4:~:text=LA%20556%3A%20BRIDGES%20NEAR%20CHOUDRANT' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_38ac95fa20bd064d104b12081a243613.setContent(html_00e101e6ef81cc96155f26a0a3ed8669);
             
         
 
-        marker_02c049c3e41e294f6cfbea2da95cda85.bindPopup(popup_fdfcefe5efe909134c68496a20b9bd5c)
+        marker_c79e37918ac6dc72a7a06e7bfc16fbe7.bindPopup(popup_38ac95fa20bd064d104b12081a243613)
         ;
 
         
     
     
-            marker_02c049c3e41e294f6cfbea2da95cda85.bindTooltip(
+            marker_c79e37918ac6dc72a7a06e7bfc16fbe7.bindTooltip(
                 `<div>
                      H.014264.6 &middot; Jackson; Lincoln ~142 mi
                  </div>`,
@@ -1685,17 +890,17 @@
             );
         
     
-                marker_02c049c3e41e294f6cfbea2da95cda85.setIcon(icon_ef846eac84198d9730c87eb3dc6d233c);
+                marker_c79e37918ac6dc72a7a06e7bfc16fbe7.setIcon(icon_a2a044504d33fb4894ade2ec9c018af0);
             
     
-            var marker_2f18847c258cf2c7f3d060dde467027e = L.marker(
+            var marker_ba1bbd5c45ad2d3492daccaa9d421eee = L.marker(
                 [32.58011, -93.88497],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_1dd9812ff8cc045655875e9378e5eb40 = L.AwesomeMarkers.icon(
+            var icon_f628c53580de028190cb57b0324d0076 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1706,24 +911,24 @@
             );
         
     
-        var popup_1b47d24beb5ce931acf3e4f99b8276b3 = L.popup({
+        var popup_34cace95ffc93c9955a1524b5e684a72 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_446699543660c0c760c186d5baee23d1 = $(`<div id="html_446699543660c0c760c186d5baee23d1" style="width: 100.0%; height: 100.0%;"><b>HOSSTON RIVER ROAD BRIDGE OVER KELLY BAYOU</b><br><b>H.014981.6</b> &middot; Caddo (LADOTD) &middot; ~218 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_9:~:text=HOSSTON%20RIVER%20ROAD%20BRIDGE%20OVER%20KELLY%20BAYOU' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_1b47d24beb5ce931acf3e4f99b8276b3.setContent(html_446699543660c0c760c186d5baee23d1);
+                var html_f7e048909ee8aa2dd3ccd647ad60aae3 = $(`<div id="html_f7e048909ee8aa2dd3ccd647ad60aae3" style="width: 100.0%; height: 100.0%;"><b>HOSSTON RIVER ROAD BRIDGE OVER KELLY BAYOU</b><br><b>H.014981.6</b> &middot; Caddo (LADOTD) &middot; ~218 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_9:~:text=HOSSTON%20RIVER%20ROAD%20BRIDGE%20OVER%20KELLY%20BAYOU' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_34cace95ffc93c9955a1524b5e684a72.setContent(html_f7e048909ee8aa2dd3ccd647ad60aae3);
             
         
 
-        marker_2f18847c258cf2c7f3d060dde467027e.bindPopup(popup_1b47d24beb5ce931acf3e4f99b8276b3)
+        marker_ba1bbd5c45ad2d3492daccaa9d421eee.bindPopup(popup_34cace95ffc93c9955a1524b5e684a72)
         ;
 
         
     
     
-            marker_2f18847c258cf2c7f3d060dde467027e.bindTooltip(
+            marker_ba1bbd5c45ad2d3492daccaa9d421eee.bindTooltip(
                 `<div>
                      H.014981.6 &middot; Caddo ~218 mi
                  </div>`,
@@ -1733,17 +938,17 @@
             );
         
     
-                marker_2f18847c258cf2c7f3d060dde467027e.setIcon(icon_1dd9812ff8cc045655875e9378e5eb40);
+                marker_ba1bbd5c45ad2d3492daccaa9d421eee.setIcon(icon_f628c53580de028190cb57b0324d0076);
             
     
-            var marker_d7998efe3cbf9a50a972856eeb08f675 = L.marker(
+            var marker_d6ed385de0c67ccf2545ef7a60055581 = L.marker(
                 [30.358404331250313, -89.90467551269684],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_3e1e0744407c41d6e159a561632c7af0 = L.AwesomeMarkers.icon(
+            var icon_085255cdcce2d87d0710c0a7616b0435 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1754,24 +959,24 @@
             );
         
     
-        var popup_0a3da11baf4d0f295b1ad9c7936d4ab4 = L.popup({
+        var popup_a32d16da35f2e189e83728e7ec5a80fb = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_6874ee73bc31747d8f27d4ea6af4f20d = $(`<div id="html_6874ee73bc31747d8f27d4ea6af4f20d" style="width: 100.0%; height: 100.0%;"><b>LOCK NO. 3 ROAD BRIDGE</b><br><b>H.015406.6</b> &middot; St. Tammany (LADOTD) &middot; ~143 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_12:~:text=LOCK%20NO.%203%20ROAD%20BRIDGE' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_0a3da11baf4d0f295b1ad9c7936d4ab4.setContent(html_6874ee73bc31747d8f27d4ea6af4f20d);
+                var html_160e7a03967869ad087a565dfdacfb62 = $(`<div id="html_160e7a03967869ad087a565dfdacfb62" style="width: 100.0%; height: 100.0%;"><b>LOCK NO. 3 ROAD BRIDGE</b><br><b>H.015406.6</b> &middot; St. Tammany (LADOTD) &middot; ~143 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_12:~:text=LOCK%20NO.%203%20ROAD%20BRIDGE' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_a32d16da35f2e189e83728e7ec5a80fb.setContent(html_160e7a03967869ad087a565dfdacfb62);
             
         
 
-        marker_d7998efe3cbf9a50a972856eeb08f675.bindPopup(popup_0a3da11baf4d0f295b1ad9c7936d4ab4)
+        marker_d6ed385de0c67ccf2545ef7a60055581.bindPopup(popup_a32d16da35f2e189e83728e7ec5a80fb)
         ;
 
         
     
     
-            marker_d7998efe3cbf9a50a972856eeb08f675.bindTooltip(
+            marker_d6ed385de0c67ccf2545ef7a60055581.bindTooltip(
                 `<div>
                      H.015406.6 &middot; St. Tammany ~143 mi
                  </div>`,
@@ -1781,17 +986,17 @@
             );
         
     
-                marker_d7998efe3cbf9a50a972856eeb08f675.setIcon(icon_3e1e0744407c41d6e159a561632c7af0);
+                marker_d6ed385de0c67ccf2545ef7a60055581.setIcon(icon_085255cdcce2d87d0710c0a7616b0435);
             
     
-            var marker_452ed13406dbbf87a4127d3945e14595 = L.marker(
+            var marker_6debac4365dd757377f2f7649ef7cab8 = L.marker(
                 [30.05342, -89.9345],
                 {
 }
-            ).addTo(feature_group_1813bb25b0c5e78bb01f43a3ef015ad6);
+            ).addTo(feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d);
         
     
-            var icon_beaa72e78c068ae21e09933ed9f3a5ec = L.AwesomeMarkers.icon(
+            var icon_41879bb36006eff086a383525398ab09 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -1802,24 +1007,24 @@
             );
         
     
-        var popup_a144f7bb50af3f183390c38ec56401ee = L.popup({
+        var popup_d90ca248b16bcdfc4e67003fa5084030 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_2c38c5810c39d6268f4946e7cdf8a456 = $(`<div id="html_2c38c5810c39d6268f4946e7cdf8a456" style="width: 100.0%; height: 100.0%;"><b>ST. CLAUDE AVE. BRIDGE (HBI)</b><br><b>H.016082.6</b> &middot; Orleans (LADOTD) &middot; ~167 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_13:~:text=ST.%20CLAUDE%20AVE.%20BRIDGE%20%28HBI%29' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_a144f7bb50af3f183390c38ec56401ee.setContent(html_2c38c5810c39d6268f4946e7cdf8a456);
+                var html_4ee0bab8fbba6d2a38fe77f044da5dfd = $(`<div id="html_4ee0bab8fbba6d2a38fe77f044da5dfd" style="width: 100.0%; height: 100.0%;"><b>ST. CLAUDE AVE. BRIDGE (HBI)</b><br><b>H.016082.6</b> &middot; Orleans (LADOTD) &middot; ~167 mi<br>Bids 2026-11-18<br><a href='https://wwwapps.dotd.la.gov/engineering/lettings/bidsadvn/anhq20261118.aspx#ContentPlaceHolder2_dlResults_ToBeLetPanel_13:~:text=ST.%20CLAUDE%20AVE.%20BRIDGE%20%28HBI%29' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_d90ca248b16bcdfc4e67003fa5084030.setContent(html_4ee0bab8fbba6d2a38fe77f044da5dfd);
             
         
 
-        marker_452ed13406dbbf87a4127d3945e14595.bindPopup(popup_a144f7bb50af3f183390c38ec56401ee)
+        marker_6debac4365dd757377f2f7649ef7cab8.bindPopup(popup_d90ca248b16bcdfc4e67003fa5084030)
         ;
 
         
     
     
-            marker_452ed13406dbbf87a4127d3945e14595.bindTooltip(
+            marker_6debac4365dd757377f2f7649ef7cab8.bindTooltip(
                 `<div>
                      H.016082.6 &middot; Orleans ~167 mi
                  </div>`,
@@ -1829,26 +1034,26 @@
             );
         
     
-                marker_452ed13406dbbf87a4127d3945e14595.setIcon(icon_beaa72e78c068ae21e09933ed9f3a5ec);
+                marker_6debac4365dd757377f2f7649ef7cab8.setIcon(icon_41879bb36006eff086a383525398ab09);
             
     
-            feature_group_1813bb25b0c5e78bb01f43a3ef015ad6.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_7b2b8aefd5ef6fd1cb4bc7ca5eaf906d.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var feature_group_69a419c9ba5abd9a1110077606fc9eae = L.featureGroup(
+            var feature_group_201704b72a7e31bcffdb1337003ec06d = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_106d5910730bf367385952ec619b289c = L.marker(
+            var marker_e36013e0e2868f434a4f0d24f90f018c = L.marker(
                 [38.64647, -94.35455],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_0ca3a322016acef0862c0bfea8eb7426 = L.AwesomeMarkers.icon(
+            var icon_fe359b512c5597dd2b5fe4e478a768a2 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -1859,24 +1064,24 @@
             );
         
     
-        var popup_dcdbd0aef4d35997da9aeae539ec2c83 = L.popup({
+        var popup_73b8e590ef5a6302a13cef3282fce132 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_07b9702e751703244c3685ae1f55f559 = $(`<div id="html_07b9702e751703244c3685ae1f55f559" style="width: 100.0%; height: 100.0%;"><b>Bridge deck replacement over Massey Creek near Cleveland, the total length of improvement being 0.142 miles.</b><br><b>C02 JKU0109</b> &middot; Cass (MODOT) &middot; ~488 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22809?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_dcdbd0aef4d35997da9aeae539ec2c83.setContent(html_07b9702e751703244c3685ae1f55f559);
+                var html_d3ab7c9cc3d9093019180ac86edec002 = $(`<div id="html_d3ab7c9cc3d9093019180ac86edec002" style="width: 100.0%; height: 100.0%;"><b>Bridge deck replacement over Massey Creek near Cleveland, the total length of improvement being 0.142 miles.</b><br><b>C02 JKU0109</b> &middot; Cass (MODOT) &middot; ~488 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22809?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_73b8e590ef5a6302a13cef3282fce132.setContent(html_d3ab7c9cc3d9093019180ac86edec002);
             
         
 
-        marker_106d5910730bf367385952ec619b289c.bindPopup(popup_dcdbd0aef4d35997da9aeae539ec2c83)
+        marker_e36013e0e2868f434a4f0d24f90f018c.bindPopup(popup_73b8e590ef5a6302a13cef3282fce132)
         ;
 
         
     
     
-            marker_106d5910730bf367385952ec619b289c.bindTooltip(
+            marker_e36013e0e2868f434a4f0d24f90f018c.bindTooltip(
                 `<div>
                      C02 JKU0109 &middot; Cass ~488 mi
                  </div>`,
@@ -1886,17 +1091,17 @@
             );
         
     
-                marker_106d5910730bf367385952ec619b289c.setIcon(icon_0ca3a322016acef0862c0bfea8eb7426);
+                marker_e36013e0e2868f434a4f0d24f90f018c.setIcon(icon_fe359b512c5597dd2b5fe4e478a768a2);
             
     
-            var marker_c8dcfbb2d3c238558f6777c0f9e68f2c = L.marker(
+            var marker_00474d97366ff9baa0cf63fb53bc710a = L.marker(
                 [38.83555, -91.92345],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_fdbf532cdcff358549a3367ea080d6ff = L.AwesomeMarkers.icon(
+            var icon_0c0d952a24625f94cc99793d569a451e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -1907,24 +1112,24 @@
             );
         
     
-        var popup_7ce649c747635aa38e5534358692269f = L.popup({
+        var popup_cd7402a0700f6fdb8dddfae977a713ef = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_d02fb8811e32edff56e6f1b069af871c = $(`<div id="html_d02fb8811e32edff56e6f1b069af871c" style="width: 100.0%; height: 100.0%;"><b>Bridge rehabilitation over Route 54 near Holts Summit, the total length of improvement being 0.112 miles.</b><br><b>D01 JCD0072</b> &middot; Callaway (MODOT) &middot; ~451 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22803?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_7ce649c747635aa38e5534358692269f.setContent(html_d02fb8811e32edff56e6f1b069af871c);
+                var html_84bedc8c625c4bb808ddac66d1bd77b9 = $(`<div id="html_84bedc8c625c4bb808ddac66d1bd77b9" style="width: 100.0%; height: 100.0%;"><b>Bridge rehabilitation over Route 54 near Holts Summit, the total length of improvement being 0.112 miles.</b><br><b>D01 JCD0072</b> &middot; Callaway (MODOT) &middot; ~451 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22803?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_cd7402a0700f6fdb8dddfae977a713ef.setContent(html_84bedc8c625c4bb808ddac66d1bd77b9);
             
         
 
-        marker_c8dcfbb2d3c238558f6777c0f9e68f2c.bindPopup(popup_7ce649c747635aa38e5534358692269f)
+        marker_00474d97366ff9baa0cf63fb53bc710a.bindPopup(popup_cd7402a0700f6fdb8dddfae977a713ef)
         ;
 
         
     
     
-            marker_c8dcfbb2d3c238558f6777c0f9e68f2c.bindTooltip(
+            marker_00474d97366ff9baa0cf63fb53bc710a.bindTooltip(
                 `<div>
                      D01 JCD0072 &middot; Callaway ~451 mi
                  </div>`,
@@ -1934,17 +1139,17 @@
             );
         
     
-                marker_c8dcfbb2d3c238558f6777c0f9e68f2c.setIcon(icon_fdbf532cdcff358549a3367ea080d6ff);
+                marker_00474d97366ff9baa0cf63fb53bc710a.setIcon(icon_0c0d952a24625f94cc99793d569a451e);
             
     
-            var marker_5c9c75fb9b0bfc9c350148e157072ec0 = L.marker(
+            var marker_e6b9024dcd624474b77ab7a4f57145ee = L.marker(
                 [38.78393433125031, -91.87616551269684],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_7e9f0673e2599cffb591e1db3e2aac79 = L.AwesomeMarkers.icon(
+            var icon_be64553c5a2feb3ed506060bf15d704b = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -1955,24 +1160,24 @@
             );
         
     
-        var popup_f52f5a38412cccb607430dea01f0b92f = L.popup({
+        var popup_e40b8a84637521d916630647676d2e60 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_478019b54c72d836e08a9e7a963ed79f = $(`<div id="html_478019b54c72d836e08a9e7a963ed79f" style="width: 100.0%; height: 100.0%;"><b>Resurface and 2 bridge rehabilitations from east of Route 63/54 interchange to east of Bluffton, the total length of improvement b</b><br><b>D07 JCD0294</b> &middot; Callaway, Montgomery (MODOT) &middot; ~451 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22814?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_f52f5a38412cccb607430dea01f0b92f.setContent(html_478019b54c72d836e08a9e7a963ed79f);
+                var html_66433c268c6701ce9a21261c5923758b = $(`<div id="html_66433c268c6701ce9a21261c5923758b" style="width: 100.0%; height: 100.0%;"><b>Resurface and 2 bridge rehabilitations from east of Route 63/54 interchange to east of Bluffton, the total length of improvement b</b><br><b>D07 JCD0294</b> &middot; Callaway, Montgomery (MODOT) &middot; ~451 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22814?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_e40b8a84637521d916630647676d2e60.setContent(html_66433c268c6701ce9a21261c5923758b);
             
         
 
-        marker_5c9c75fb9b0bfc9c350148e157072ec0.bindPopup(popup_f52f5a38412cccb607430dea01f0b92f)
+        marker_e6b9024dcd624474b77ab7a4f57145ee.bindPopup(popup_e40b8a84637521d916630647676d2e60)
         ;
 
         
     
     
-            marker_5c9c75fb9b0bfc9c350148e157072ec0.bindTooltip(
+            marker_e6b9024dcd624474b77ab7a4f57145ee.bindTooltip(
                 `<div>
                      D07 JCD0294 &middot; Callaway, Montgomery ~451 mi
                  </div>`,
@@ -1982,17 +1187,17 @@
             );
         
     
-                marker_5c9c75fb9b0bfc9c350148e157072ec0.setIcon(icon_7e9f0673e2599cffb591e1db3e2aac79);
+                marker_e6b9024dcd624474b77ab7a4f57145ee.setIcon(icon_be64553c5a2feb3ed506060bf15d704b);
             
     
-            var marker_027200388effea98c59ebcf65d3c0ddb = L.marker(
+            var marker_21409e701e198e36e3ee52e5ed45ee11 = L.marker(
                 [38.64069, -90.44607],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_be8aa21f4fd7e850ee76e9ff85619eff = L.AwesomeMarkers.icon(
+            var icon_8ccabf8903951dff0f258ef52571cf44 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -2003,24 +1208,24 @@
             );
         
     
-        var popup_cb3bdaa4b49c463faff8949f044a5e2a = L.popup({
+        var popup_df4b2cb34f136a2766a1969adb559679 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_b815cfc2538d7b356caa8ad3c744d6f0 = $(`<div id="html_b815cfc2538d7b356caa8ad3c744d6f0" style="width: 100.0%; height: 100.0%;"><b>7 Bridge rehabilitations at the I-255/I-55 Interchange, the total length of improvement being 0.699 miles.</b><br><b>F03 JSL0053</b> &middot; St Louis (MODOT) &middot; ~427 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22979?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_cb3bdaa4b49c463faff8949f044a5e2a.setContent(html_b815cfc2538d7b356caa8ad3c744d6f0);
+                var html_879468ccba0e3efd36f9ff945a7fb098 = $(`<div id="html_879468ccba0e3efd36f9ff945a7fb098" style="width: 100.0%; height: 100.0%;"><b>7 Bridge rehabilitations at the I-255/I-55 Interchange, the total length of improvement being 0.699 miles.</b><br><b>F03 JSL0053</b> &middot; St Louis (MODOT) &middot; ~427 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22979?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_df4b2cb34f136a2766a1969adb559679.setContent(html_879468ccba0e3efd36f9ff945a7fb098);
             
         
 
-        marker_027200388effea98c59ebcf65d3c0ddb.bindPopup(popup_cb3bdaa4b49c463faff8949f044a5e2a)
+        marker_21409e701e198e36e3ee52e5ed45ee11.bindPopup(popup_df4b2cb34f136a2766a1969adb559679)
         ;
 
         
     
     
-            marker_027200388effea98c59ebcf65d3c0ddb.bindTooltip(
+            marker_21409e701e198e36e3ee52e5ed45ee11.bindTooltip(
                 `<div>
                      F03 JSL0053 &middot; St Louis ~427 mi
                  </div>`,
@@ -2030,17 +1235,17 @@
             );
         
     
-                marker_027200388effea98c59ebcf65d3c0ddb.setIcon(icon_be8aa21f4fd7e850ee76e9ff85619eff);
+                marker_21409e701e198e36e3ee52e5ed45ee11.setIcon(icon_8ccabf8903951dff0f258ef52571cf44);
             
     
-            var marker_5ee322b57525e95d922c53d05aeec225 = L.marker(
+            var marker_d5328f21c2db2fca34f4efc79d2ffbe9 = L.marker(
                 [37.68358, -93.03382],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_0b2c94210ecc5ef421c333e0a607667c = L.AwesomeMarkers.icon(
+            var icon_c5d139d34c25f42658c50781eef00356 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -2051,24 +1256,24 @@
             );
         
     
-        var popup_e2e3b90fbc28d2f5a1b6062dc7f214b7 = L.popup({
+        var popup_7c2d05a4e3ac2507c6126b71af143bc5 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_3651afff82221fad17dda837e86658c0 = $(`<div id="html_3651afff82221fad17dda837e86658c0" style="width: 100.0%; height: 100.0%;"><b>Bridge replacement and ADA improvement over the Niangua River and near Bennett Spring State Park, the total length of improvement </b><br><b>G01 J7P3542</b> &middot; Dallas, Laclede (MODOT) &middot; ~396 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22785?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_e2e3b90fbc28d2f5a1b6062dc7f214b7.setContent(html_3651afff82221fad17dda837e86658c0);
+                var html_fcd516e63bdeb5970c03a19351b2f2a2 = $(`<div id="html_fcd516e63bdeb5970c03a19351b2f2a2" style="width: 100.0%; height: 100.0%;"><b>Bridge replacement and ADA improvement over the Niangua River and near Bennett Spring State Park, the total length of improvement </b><br><b>G01 J7P3542</b> &middot; Dallas, Laclede (MODOT) &middot; ~396 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22785?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_7c2d05a4e3ac2507c6126b71af143bc5.setContent(html_fcd516e63bdeb5970c03a19351b2f2a2);
             
         
 
-        marker_5ee322b57525e95d922c53d05aeec225.bindPopup(popup_e2e3b90fbc28d2f5a1b6062dc7f214b7)
+        marker_d5328f21c2db2fca34f4efc79d2ffbe9.bindPopup(popup_7c2d05a4e3ac2507c6126b71af143bc5)
         ;
 
         
     
     
-            marker_5ee322b57525e95d922c53d05aeec225.bindTooltip(
+            marker_d5328f21c2db2fca34f4efc79d2ffbe9.bindTooltip(
                 `<div>
                      G01 J7P3542 &middot; Dallas, Laclede ~396 mi
                  </div>`,
@@ -2078,17 +1283,17 @@
             );
         
     
-                marker_5ee322b57525e95d922c53d05aeec225.setIcon(icon_0b2c94210ecc5ef421c333e0a607667c);
+                marker_d5328f21c2db2fca34f4efc79d2ffbe9.setIcon(icon_c5d139d34c25f42658c50781eef00356);
             
     
-            var marker_dbf0efbb1702dee444f8ef81449c4894 = L.marker(
+            var marker_c73e10692a5b46265b14d4e92456ed13 = L.marker(
                 [37.73365, -93.85001],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_cbb9414e2cadbc3afefa77f5e9034acb = L.AwesomeMarkers.icon(
+            var icon_7a937add99f75949c95f38759e6d70cb = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -2099,24 +1304,24 @@
             );
         
     
-        var popup_4b67242387c959bedea68e05a82a97fa = L.popup({
+        var popup_e8beefa596810c857ece1ff1fdf85c22 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_94a9296f003feb32010024b85b21edf8 = $(`<div id="html_94a9296f003feb32010024b85b21edf8" style="width: 100.0%; height: 100.0%;"><b>Grading, pavement, drainage, bridge replacement and culvert replacement at Route CC, County Road 1350, and 2.3 miles west of Boliv</b><br><b>G06 JSR0059</b> &middot; Cedar, Polk (MODOT) &middot; ~420 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22957?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_4b67242387c959bedea68e05a82a97fa.setContent(html_94a9296f003feb32010024b85b21edf8);
+                var html_d01476f2bf0660a1b26e0482144ebf52 = $(`<div id="html_d01476f2bf0660a1b26e0482144ebf52" style="width: 100.0%; height: 100.0%;"><b>Grading, pavement, drainage, bridge replacement and culvert replacement at Route CC, County Road 1350, and 2.3 miles west of Boliv</b><br><b>G06 JSR0059</b> &middot; Cedar, Polk (MODOT) &middot; ~420 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22957?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_e8beefa596810c857ece1ff1fdf85c22.setContent(html_d01476f2bf0660a1b26e0482144ebf52);
             
         
 
-        marker_dbf0efbb1702dee444f8ef81449c4894.bindPopup(popup_4b67242387c959bedea68e05a82a97fa)
+        marker_c73e10692a5b46265b14d4e92456ed13.bindPopup(popup_e8beefa596810c857ece1ff1fdf85c22)
         ;
 
         
     
     
-            marker_dbf0efbb1702dee444f8ef81449c4894.bindTooltip(
+            marker_c73e10692a5b46265b14d4e92456ed13.bindTooltip(
                 `<div>
                      G06 JSR0059 &middot; Cedar, Polk ~420 mi
                  </div>`,
@@ -2126,17 +1331,17 @@
             );
         
     
-                marker_dbf0efbb1702dee444f8ef81449c4894.setIcon(icon_cbb9414e2cadbc3afefa77f5e9034acb);
+                marker_c73e10692a5b46265b14d4e92456ed13.setIcon(icon_7a937add99f75949c95f38759e6d70cb);
             
     
-            var marker_c8d129cdf324c4d627e1e7d33dc1a0e5 = L.marker(
+            var marker_3dc690ba501ad708b17b66bea96b07f9 = L.marker(
                 [37.2582, -93.34064],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_4890039a0df73578e80fe34d81f33280 = L.AwesomeMarkers.icon(
+            var icon_35de413eaaf4402659872e78e8f4f7f7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -2147,24 +1352,24 @@
             );
         
     
-        var popup_584adb2b684a13d45f8f6be5824e71a8 = L.popup({
+        var popup_daf1364d42485f4f846244fa89332b9b = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_100ca8c7fff6d80bccad8cf96d7a732f = $(`<div id="html_100ca8c7fff6d80bccad8cf96d7a732f" style="width: 100.0%; height: 100.0%;"><b>Bridge replacement over Sac River, the total length of improvement being 0.1752 miles.  (+1 more structure job in this call)</b><br><b>G08 JSR0083</b> &middot; Greene (MODOT) &middot; ~377 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22853?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_584adb2b684a13d45f8f6be5824e71a8.setContent(html_100ca8c7fff6d80bccad8cf96d7a732f);
+                var html_2f64629ed3047e9bcd38c4badb3375fb = $(`<div id="html_2f64629ed3047e9bcd38c4badb3375fb" style="width: 100.0%; height: 100.0%;"><b>Bridge replacement over Sac River, the total length of improvement being 0.1752 miles.  (+1 more structure job in this call)</b><br><b>G08 JSR0083</b> &middot; Greene (MODOT) &middot; ~377 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22853?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_daf1364d42485f4f846244fa89332b9b.setContent(html_2f64629ed3047e9bcd38c4badb3375fb);
             
         
 
-        marker_c8d129cdf324c4d627e1e7d33dc1a0e5.bindPopup(popup_584adb2b684a13d45f8f6be5824e71a8)
+        marker_3dc690ba501ad708b17b66bea96b07f9.bindPopup(popup_daf1364d42485f4f846244fa89332b9b)
         ;
 
         
     
     
-            marker_c8d129cdf324c4d627e1e7d33dc1a0e5.bindTooltip(
+            marker_3dc690ba501ad708b17b66bea96b07f9.bindTooltip(
                 `<div>
                      G08 JSR0083 &middot; Greene ~377 mi
                  </div>`,
@@ -2174,17 +1379,17 @@
             );
         
     
-                marker_c8d129cdf324c4d627e1e7d33dc1a0e5.setIcon(icon_4890039a0df73578e80fe34d81f33280);
+                marker_3dc690ba501ad708b17b66bea96b07f9.setIcon(icon_35de413eaaf4402659872e78e8f4f7f7);
             
     
-            var marker_547cb9149554b61b912d88825a898dfa = L.marker(
+            var marker_f11c1f145b93c6c8a3c4a1be313f7a37 = L.marker(
                 [36.71518, -90.40313],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_69e11db7c1da833cc1c960035efc5cad = L.AwesomeMarkers.icon(
+            var icon_8b87718b61431700487a15f3966dd64b = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -2195,24 +1400,24 @@
             );
         
     
-        var popup_60e4e04b37ab8694221fb1aea7efb5e7 = L.popup({
+        var popup_30568d1eb5c0e3d04ebbb50bdc1202dc = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_82b9f504b944db46128d7c109707c97c = $(`<div id="html_82b9f504b944db46128d7c109707c97c" style="width: 100.0%; height: 100.0%;"><b>Bridge deck replacement over Pike Creek, the total length of improvement being 0.063 miles.</b><br><b>H11 JSE0106</b> &middot; Butler (MODOT) &middot; ~294 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22884?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_60e4e04b37ab8694221fb1aea7efb5e7.setContent(html_82b9f504b944db46128d7c109707c97c);
+                var html_6c67b3219931f7dbe39116c0359b3dc3 = $(`<div id="html_6c67b3219931f7dbe39116c0359b3dc3" style="width: 100.0%; height: 100.0%;"><b>Bridge deck replacement over Pike Creek, the total length of improvement being 0.063 miles.</b><br><b>H11 JSE0106</b> &middot; Butler (MODOT) &middot; ~294 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22884?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_30568d1eb5c0e3d04ebbb50bdc1202dc.setContent(html_6c67b3219931f7dbe39116c0359b3dc3);
             
         
 
-        marker_547cb9149554b61b912d88825a898dfa.bindPopup(popup_60e4e04b37ab8694221fb1aea7efb5e7)
+        marker_f11c1f145b93c6c8a3c4a1be313f7a37.bindPopup(popup_30568d1eb5c0e3d04ebbb50bdc1202dc)
         ;
 
         
     
     
-            marker_547cb9149554b61b912d88825a898dfa.bindTooltip(
+            marker_f11c1f145b93c6c8a3c4a1be313f7a37.bindTooltip(
                 `<div>
                      H11 JSE0106 &middot; Butler ~294 mi
                  </div>`,
@@ -2222,17 +1427,17 @@
             );
         
     
-                marker_547cb9149554b61b912d88825a898dfa.setIcon(icon_69e11db7c1da833cc1c960035efc5cad);
+                marker_f11c1f145b93c6c8a3c4a1be313f7a37.setIcon(icon_8b87718b61431700487a15f3966dd64b);
             
     
-            var marker_41ac8b0f83e156ba199c4f8d2d63bda9 = L.marker(
+            var marker_0ea5f1637aa52dd9d85d94285cd637b9 = L.marker(
                 [37.2052, -94.33726],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_aba302024f7b153e3d0e9706c9866e3b = L.AwesomeMarkers.icon(
+            var icon_b2985b812fa2ebcb83cfa4ec8d3e2ebb = L.AwesomeMarkers.icon(
                 {
   "markerColor": "cadetblue",
   "iconColor": "white",
@@ -2243,24 +1448,24 @@
             );
         
     
-        var popup_c169e6b46362db6ce293da16e8a75941 = L.popup({
+        var popup_154b3bf083acb0f2f3fb7d190cdd0854 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_e923a42d9a0b794842172c19428daf05 = $(`<div id="html_e923a42d9a0b794842172c19428daf05" style="width: 100.0%; height: 100.0%;"><b>Pavement replacement and culvert rehabilitation from I-49 to Route 571 in Carthage, the total length of improvement being 1.018 mi</b><br><b>G03 JSR0060</b> &middot; Jasper (MODOT) &middot; ~404 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22988?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_c169e6b46362db6ce293da16e8a75941.setContent(html_e923a42d9a0b794842172c19428daf05);
+                var html_c5af40d0bc18d15301ed5c18bc266407 = $(`<div id="html_c5af40d0bc18d15301ed5c18bc266407" style="width: 100.0%; height: 100.0%;"><b>Pavement replacement and culvert rehabilitation from I-49 to Route 571 in Carthage, the total length of improvement being 1.018 mi</b><br><b>G03 JSR0060</b> &middot; Jasper (MODOT) &middot; ~404 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22988?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_154b3bf083acb0f2f3fb7d190cdd0854.setContent(html_c5af40d0bc18d15301ed5c18bc266407);
             
         
 
-        marker_41ac8b0f83e156ba199c4f8d2d63bda9.bindPopup(popup_c169e6b46362db6ce293da16e8a75941)
+        marker_0ea5f1637aa52dd9d85d94285cd637b9.bindPopup(popup_154b3bf083acb0f2f3fb7d190cdd0854)
         ;
 
         
     
     
-            marker_41ac8b0f83e156ba199c4f8d2d63bda9.bindTooltip(
+            marker_0ea5f1637aa52dd9d85d94285cd637b9.bindTooltip(
                 `<div>
                      G03 JSR0060 &middot; Jasper ~404 mi
                  </div>`,
@@ -2270,17 +1475,17 @@
             );
         
     
-                marker_41ac8b0f83e156ba199c4f8d2d63bda9.setIcon(icon_aba302024f7b153e3d0e9706c9866e3b);
+                marker_0ea5f1637aa52dd9d85d94285cd637b9.setIcon(icon_b2985b812fa2ebcb83cfa4ec8d3e2ebb);
             
     
-            var marker_6092ccf3d313a6ffe0313f4fc903d8e2 = L.marker(
+            var marker_d114daa6d5c7c16788cce695831049d6 = L.marker(
                 [37.6597, -92.59484],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_29f5670dd2e9ccbc5188f3bbf0da4732 = L.AwesomeMarkers.icon(
+            var icon_bdb1cf7ab5b9a4dbb52a85ff01c75d82 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -2291,24 +1496,24 @@
             );
         
     
-        var popup_8624e8b6db7e330b174836a47db83a13 = L.popup({
+        var popup_a92fac3abc381c6c034b8959b5887d44 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_77ba4169089f078bc34dc40b46253777 = $(`<div id="html_77ba4169089f078bc34dc40b46253777" style="width: 100.0%; height: 100.0%;"><b>Bridge rehabilitation and bridge superstructure replacement over the Gasconade River overflow, the total length of improvement bei</b><br><b>D6A JCD0343</b> &middot; Laclede (MODOT) &middot; ~384 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22964?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_8624e8b6db7e330b174836a47db83a13.setContent(html_77ba4169089f078bc34dc40b46253777);
+                var html_dd903f24cd55eac93530056b92a7b1e2 = $(`<div id="html_dd903f24cd55eac93530056b92a7b1e2" style="width: 100.0%; height: 100.0%;"><b>Bridge rehabilitation and bridge superstructure replacement over the Gasconade River overflow, the total length of improvement bei</b><br><b>D6A JCD0343</b> &middot; Laclede (MODOT) &middot; ~384 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22964?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_a92fac3abc381c6c034b8959b5887d44.setContent(html_dd903f24cd55eac93530056b92a7b1e2);
             
         
 
-        marker_6092ccf3d313a6ffe0313f4fc903d8e2.bindPopup(popup_8624e8b6db7e330b174836a47db83a13)
+        marker_d114daa6d5c7c16788cce695831049d6.bindPopup(popup_a92fac3abc381c6c034b8959b5887d44)
         ;
 
         
     
     
-            marker_6092ccf3d313a6ffe0313f4fc903d8e2.bindTooltip(
+            marker_d114daa6d5c7c16788cce695831049d6.bindTooltip(
                 `<div>
                      D6A JCD0343 &middot; Laclede ~384 mi
                  </div>`,
@@ -2318,17 +1523,17 @@
             );
         
     
-                marker_6092ccf3d313a6ffe0313f4fc903d8e2.setIcon(icon_29f5670dd2e9ccbc5188f3bbf0da4732);
+                marker_d114daa6d5c7c16788cce695831049d6.setIcon(icon_bdb1cf7ab5b9a4dbb52a85ff01c75d82);
             
     
-            var marker_f37037174994a54d3e723246c933da43 = L.marker(
+            var marker_2d014e527fc28f675b52e749630e4a4a = L.marker(
                 [38.16262, -91.9236],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_47ac05b61358753f34955c359e76d900 = L.AwesomeMarkers.icon(
+            var icon_6425ce229497b5b618c6d042f3b04322 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -2339,24 +1544,24 @@
             );
         
     
-        var popup_24526f7730823e671c810cb784de6873 = L.popup({
+        var popup_ec89d8e409aaceee654a68ed0dac8e41 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_897d07d8bcf5ccc4a6e1cb899b63d325 = $(`<div id="html_897d07d8bcf5ccc4a6e1cb899b63d325" style="width: 100.0%; height: 100.0%;"><b>Coldmill, resurface and bridge rehabilitation from Route 63 to north of Matlock Drive, the total length of improvement being 11.73</b><br><b>D08 JCD0309</b> &middot; Maries, Phelps (MODOT) &middot; ~406 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22771?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_24526f7730823e671c810cb784de6873.setContent(html_897d07d8bcf5ccc4a6e1cb899b63d325);
+                var html_b4b31a30604afa38b8ac7df8585b5bb2 = $(`<div id="html_b4b31a30604afa38b8ac7df8585b5bb2" style="width: 100.0%; height: 100.0%;"><b>Coldmill, resurface and bridge rehabilitation from Route 63 to north of Matlock Drive, the total length of improvement being 11.73</b><br><b>D08 JCD0309</b> &middot; Maries, Phelps (MODOT) &middot; ~406 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22771?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_ec89d8e409aaceee654a68ed0dac8e41.setContent(html_b4b31a30604afa38b8ac7df8585b5bb2);
             
         
 
-        marker_f37037174994a54d3e723246c933da43.bindPopup(popup_24526f7730823e671c810cb784de6873)
+        marker_2d014e527fc28f675b52e749630e4a4a.bindPopup(popup_ec89d8e409aaceee654a68ed0dac8e41)
         ;
 
         
     
     
-            marker_f37037174994a54d3e723246c933da43.bindTooltip(
+            marker_2d014e527fc28f675b52e749630e4a4a.bindTooltip(
                 `<div>
                      D08 JCD0309 &middot; Maries, Phelps ~406 mi
                  </div>`,
@@ -2366,17 +1571,17 @@
             );
         
     
-                marker_f37037174994a54d3e723246c933da43.setIcon(icon_47ac05b61358753f34955c359e76d900);
+                marker_2d014e527fc28f675b52e749630e4a4a.setIcon(icon_6425ce229497b5b618c6d042f3b04322);
             
     
-            var marker_dbce37ec1752bd022f8836d9b14bed3e = L.marker(
+            var marker_fc54c2f9f0e3b093716ac4fdc6d25dcb = L.marker(
                 [37.38414, -89.68566],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_da8e17776dcfa5157235d49c4c28714b = L.AwesomeMarkers.icon(
+            var icon_d5053409aa94e9e71119c32c689b482f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -2387,24 +1592,24 @@
             );
         
     
-        var popup_c2dd331a71b25399b8a188857c13849d = L.popup({
+        var popup_8b9a74eec57a8dccc7a41bc9de680fe8 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_b193bba734b83f5f65602b8550caa140 = $(`<div id="html_b193bba734b83f5f65602b8550caa140" style="width: 100.0%; height: 100.0%;"><b>Grading, paving, drainage, guardrail and 3 bridge rehabilitations over BNSF Railway and Route 74 and Route 61 over I-55 and at Rou</b><br><b>H01 J9P3122</b> &middot; Cape Girardeau (MODOT) &middot; ~340 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22872?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_c2dd331a71b25399b8a188857c13849d.setContent(html_b193bba734b83f5f65602b8550caa140);
+                var html_b71f4f7154f06e2b9a1b7db9491020ec = $(`<div id="html_b71f4f7154f06e2b9a1b7db9491020ec" style="width: 100.0%; height: 100.0%;"><b>Grading, paving, drainage, guardrail and 3 bridge rehabilitations over BNSF Railway and Route 74 and Route 61 over I-55 and at Rou</b><br><b>H01 J9P3122</b> &middot; Cape Girardeau (MODOT) &middot; ~340 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22872?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_8b9a74eec57a8dccc7a41bc9de680fe8.setContent(html_b71f4f7154f06e2b9a1b7db9491020ec);
             
         
 
-        marker_dbce37ec1752bd022f8836d9b14bed3e.bindPopup(popup_c2dd331a71b25399b8a188857c13849d)
+        marker_fc54c2f9f0e3b093716ac4fdc6d25dcb.bindPopup(popup_8b9a74eec57a8dccc7a41bc9de680fe8)
         ;
 
         
     
     
-            marker_dbce37ec1752bd022f8836d9b14bed3e.bindTooltip(
+            marker_fc54c2f9f0e3b093716ac4fdc6d25dcb.bindTooltip(
                 `<div>
                      H01 J9P3122 &middot; Cape Girardeau ~340 mi
                  </div>`,
@@ -2414,17 +1619,17 @@
             );
         
     
-                marker_dbce37ec1752bd022f8836d9b14bed3e.setIcon(icon_da8e17776dcfa5157235d49c4c28714b);
+                marker_fc54c2f9f0e3b093716ac4fdc6d25dcb.setIcon(icon_d5053409aa94e9e71119c32c689b482f);
             
     
-            var marker_f7be361b6324f916bbe00bd649d04cd1 = L.marker(
+            var marker_7e49fba89e34dabf6dbceee65092e47a = L.marker(
                 [37.81071, -90.47387],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_d080413fb244267e7caaf79de0b5941c = L.AwesomeMarkers.icon(
+            var icon_96da37573c2f6a3b35e1cd77cc9ac10e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -2435,24 +1640,24 @@
             );
         
     
-        var popup_fc533e56873666321e0396fce62e0432 = L.popup({
+        var popup_ec7780b2cf42b7805174cbb6de412dc5 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_2c8d6c1e3046845c1ed002b53ae546b5 = $(`<div id="html_2c8d6c1e3046845c1ed002b53ae546b5" style="width: 100.0%; height: 100.0%;"><b>2 Bridge rehabilitations, coldmill and resurface from High Street in Bismarck to the south intersection of Business 32, the total </b><br><b>H05 J9P3852</b> &middot; St Francois (MODOT) &middot; ~369 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22795?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_fc533e56873666321e0396fce62e0432.setContent(html_2c8d6c1e3046845c1ed002b53ae546b5);
+                var html_98e09b73aeac68bec79ca86f8810d186 = $(`<div id="html_98e09b73aeac68bec79ca86f8810d186" style="width: 100.0%; height: 100.0%;"><b>2 Bridge rehabilitations, coldmill and resurface from High Street in Bismarck to the south intersection of Business 32, the total </b><br><b>H05 J9P3852</b> &middot; St Francois (MODOT) &middot; ~369 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22795?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_ec7780b2cf42b7805174cbb6de412dc5.setContent(html_98e09b73aeac68bec79ca86f8810d186);
             
         
 
-        marker_f7be361b6324f916bbe00bd649d04cd1.bindPopup(popup_fc533e56873666321e0396fce62e0432)
+        marker_7e49fba89e34dabf6dbceee65092e47a.bindPopup(popup_ec7780b2cf42b7805174cbb6de412dc5)
         ;
 
         
     
     
-            marker_f7be361b6324f916bbe00bd649d04cd1.bindTooltip(
+            marker_7e49fba89e34dabf6dbceee65092e47a.bindTooltip(
                 `<div>
                      H05 J9P3852 &middot; St Francois ~369 mi
                  </div>`,
@@ -2462,17 +1667,17 @@
             );
         
     
-                marker_f7be361b6324f916bbe00bd649d04cd1.setIcon(icon_d080413fb244267e7caaf79de0b5941c);
+                marker_7e49fba89e34dabf6dbceee65092e47a.setIcon(icon_96da37573c2f6a3b35e1cd77cc9ac10e);
             
     
-            var marker_51b70a628ca02cf36feb31aec9e1bf0b = L.marker(
+            var marker_0709fbfcd1c5fc4a3441985b6738ad13 = L.marker(
                 [38.59485433125031, -94.30726551269684],
                 {
 }
-            ).addTo(feature_group_69a419c9ba5abd9a1110077606fc9eae);
+            ).addTo(feature_group_201704b72a7e31bcffdb1337003ec06d);
         
     
-            var icon_2b6fd7b94748986aabd1ba10fb1dfc68 = L.AwesomeMarkers.icon(
+            var icon_6dc204a319e4a341a6c8c0f8b478a1ad = L.AwesomeMarkers.icon(
                 {
   "markerColor": "cadetblue",
   "iconColor": "white",
@@ -2483,24 +1688,24 @@
             );
         
     
-        var popup_22f38cc275b2000516b5a3b4646e86f8 = L.popup({
+        var popup_12c71b9576d4eca017f66cfc9c7655aa = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_740ddbaa5a607dce428241c0ae5dff41 = $(`<div id="html_740ddbaa5a607dce428241c0ae5dff41" style="width: 100.0%; height: 100.0%;"><b>Culvert replacement and ADA improvements over Muddy Creek in Harrisonville, the total length of improvement being 0.13 miles.</b><br><b>C03 JKU0299</b> &middot; Cass (MODOT) &middot; ~488 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22999?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_22f38cc275b2000516b5a3b4646e86f8.setContent(html_740ddbaa5a607dce428241c0ae5dff41);
+                var html_2514e6752e7e3bcf14e11c29f7f16147 = $(`<div id="html_2514e6752e7e3bcf14e11c29f7f16147" style="width: 100.0%; height: 100.0%;"><b>Culvert replacement and ADA improvements over Muddy Creek in Harrisonville, the total length of improvement being 0.13 miles.</b><br><b>C03 JKU0299</b> &middot; Cass (MODOT) &middot; ~488 mi<br>Bids 2026-11-20<br><a href='https://modotweb.modot.mo.gov/BidLettingPlansRoom/Letting/ViewStream/22999?type=plan' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_12c71b9576d4eca017f66cfc9c7655aa.setContent(html_2514e6752e7e3bcf14e11c29f7f16147);
             
         
 
-        marker_51b70a628ca02cf36feb31aec9e1bf0b.bindPopup(popup_22f38cc275b2000516b5a3b4646e86f8)
+        marker_0709fbfcd1c5fc4a3441985b6738ad13.bindPopup(popup_12c71b9576d4eca017f66cfc9c7655aa)
         ;
 
         
     
     
-            marker_51b70a628ca02cf36feb31aec9e1bf0b.bindTooltip(
+            marker_0709fbfcd1c5fc4a3441985b6738ad13.bindTooltip(
                 `<div>
                      C03 JKU0299 &middot; Cass ~488 mi
                  </div>`,
@@ -2510,26 +1715,275 @@
             );
         
     
-                marker_51b70a628ca02cf36feb31aec9e1bf0b.setIcon(icon_2b6fd7b94748986aabd1ba10fb1dfc68);
+                marker_0709fbfcd1c5fc4a3441985b6738ad13.setIcon(icon_6dc204a319e4a341a6c8c0f8b478a1ad);
             
     
-            feature_group_69a419c9ba5abd9a1110077606fc9eae.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_201704b72a7e31bcffdb1337003ec06d.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var feature_group_108c0b6515f2a17e7c50ffd59a5ea308 = L.featureGroup(
+            var feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_84d81f27ea03eca45ad416d670064055 = L.marker(
+            var marker_9319af08de9c94ec4280a0f4f17a2c49 = L.marker(
+                [33.47142, -88.43972],
+                {
+}
+            ).addTo(feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa);
+        
+    
+            var icon_2f06954fc9471864196b7b62d5a8d801 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4809c6e76b1645f4e807b10c77b7ef2c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45862cd636d4859c196883abd39e009b = $(`<div id="html_45862cd636d4859c196883abd39e009b" style="width: 100.0%; height: 100.0%;"><b>0.189 mi. of Box Bridge Gravel and Approaches</b><br><b>LSBP-44(17)</b> &middot; Lowndes (MSAID) &middot; ~121 mi<br>Bids 2026-11-24<br><a href='https://www.osarc.ms.gov/Docs/proj_info/LSBP-44(17).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_4809c6e76b1645f4e807b10c77b7ef2c.setContent(html_45862cd636d4859c196883abd39e009b);
+            
+        
+
+        marker_9319af08de9c94ec4280a0f4f17a2c49.bindPopup(popup_4809c6e76b1645f4e807b10c77b7ef2c)
+        ;
+
+        
+    
+    
+            marker_9319af08de9c94ec4280a0f4f17a2c49.bindTooltip(
+                `<div>
+                     LSBP-44(17) &middot; Lowndes ~121 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9319af08de9c94ec4280a0f4f17a2c49.setIcon(icon_2f06954fc9471864196b7b62d5a8d801);
+            
+    
+            var marker_7749c8e0965c24711d15d535c1d69950 = L.marker(
+                [32.75014, -88.62563],
+                {
+}
+            ).addTo(feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa);
+        
+    
+            var icon_92d0862b0a1b8b02fa5ca3795ccba394 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_349151fe38dabec37bb1dd88b9d34660 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d98fbe6fa014e75a72f37dcce666e50 = $(`<div id="html_3d98fbe6fa014e75a72f37dcce666e50" style="width: 100.0%; height: 100.0%;"><b>0.200 mi. of Bridge and Approaches</b><br><b>ERBR-35(02)</b> &middot; Kemper (MSAID) &middot; ~90 mi<br>Bids 2026-12-02<br><a href='https://www.osarc.ms.gov/Docs/proj_info/ERBRF/ERBR-35(02).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_349151fe38dabec37bb1dd88b9d34660.setContent(html_3d98fbe6fa014e75a72f37dcce666e50);
+            
+        
+
+        marker_7749c8e0965c24711d15d535c1d69950.bindPopup(popup_349151fe38dabec37bb1dd88b9d34660)
+        ;
+
+        
+    
+    
+            marker_7749c8e0965c24711d15d535c1d69950.bindTooltip(
+                `<div>
+                     ERBR-35(02) &middot; Kemper ~90 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7749c8e0965c24711d15d535c1d69950.setIcon(icon_92d0862b0a1b8b02fa5ca3795ccba394);
+            
+    
+            var marker_adab1ee24dc66537fc3fa638b5d31fab = L.marker(
+                [33.54979, -90.29493],
+                {
+}
+            ).addTo(feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa);
+        
+    
+            var icon_39b6d83f849a1d2ea6c5ce54f3649738 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_960354205e681eb03f5e0c0213b391b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf565e0e90d2ba8a673dc94b0f577a67 = $(`<div id="html_bf565e0e90d2ba8a673dc94b0f577a67" style="width: 100.0%; height: 100.0%;"><b>0.181 mi. of Bridge and Approaches</b><br><b>SAP-42(69)</b> &middot; Leflore (MSAID) &middot; ~75 mi<br>Bids 2026-12-07<br><a href='https://www.osarc.ms.gov/Docs/proj_info/SAP-42(69).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_960354205e681eb03f5e0c0213b391b2.setContent(html_bf565e0e90d2ba8a673dc94b0f577a67);
+            
+        
+
+        marker_adab1ee24dc66537fc3fa638b5d31fab.bindPopup(popup_960354205e681eb03f5e0c0213b391b2)
+        ;
+
+        
+    
+    
+            marker_adab1ee24dc66537fc3fa638b5d31fab.bindTooltip(
+                `<div>
+                     SAP-42(69) &middot; Leflore ~75 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_adab1ee24dc66537fc3fa638b5d31fab.setIcon(icon_39b6d83f849a1d2ea6c5ce54f3649738);
+            
+    
+            var marker_a2b853e43c5177f85c4232170148b930 = L.marker(
+                [31.483604331250312, -90.40628551269684],
+                {
+}
+            ).addTo(feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa);
+        
+    
+            var icon_d504a86077ae1e95b025809d5e511d1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2965cf011e81053e7f3a111c20809b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b76b63e3f7efe809876504749b96730 = $(`<div id="html_8b76b63e3f7efe809876504749b96730" style="width: 100.0%; height: 100.0%;"><b>0.110 mi. of Bridge and Gravel Approaches</b><br><b>LSBP-43(57)</b> &middot; Lincoln (MSAID) &middot; ~67 mi<br>Bids 2026-12-15<br><a href='https://www.osarc.ms.gov/Docs/proj_info/LSBP-43(57).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_b2965cf011e81053e7f3a111c20809b7.setContent(html_8b76b63e3f7efe809876504749b96730);
+            
+        
+
+        marker_a2b853e43c5177f85c4232170148b930.bindPopup(popup_b2965cf011e81053e7f3a111c20809b7)
+        ;
+
+        
+    
+    
+            marker_a2b853e43c5177f85c4232170148b930.bindTooltip(
+                `<div>
+                     LSBP-43(57) &middot; Lincoln ~67 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a2b853e43c5177f85c4232170148b930.setIcon(icon_d504a86077ae1e95b025809d5e511d1d);
+            
+    
+            var marker_6bfcfbb642fbdb34f2951801a5b275af = L.marker(
+                [33.49817433125031, -90.24764551269683],
+                {
+}
+            ).addTo(feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa);
+        
+    
+            var icon_e88df4c4f4dbb44be3f644f943165a96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e05a09e5478d514337ca1859d34133f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f64f2680f995e462962e6c842f53fe6 = $(`<div id="html_2f64f2680f995e462962e6c842f53fe6" style="width: 100.0%; height: 100.0%;"><b>0.095 mi. of Box Bridge and Approaches</b><br><b>SAP-36(84)</b> &middot; Leflore (MSAID) &middot; ~75 mi<br>Bids 2026-12-15<br><a href='https://www.osarc.ms.gov/Docs/proj_info/SAP-36(84).pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_2e05a09e5478d514337ca1859d34133f.setContent(html_2f64f2680f995e462962e6c842f53fe6);
+            
+        
+
+        marker_6bfcfbb642fbdb34f2951801a5b275af.bindPopup(popup_2e05a09e5478d514337ca1859d34133f)
+        ;
+
+        
+    
+    
+            marker_6bfcfbb642fbdb34f2951801a5b275af.bindTooltip(
+                `<div>
+                     SAP-36(84) &middot; Leflore ~75 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6bfcfbb642fbdb34f2951801a5b275af.setIcon(icon_e88df4c4f4dbb44be3f644f943165a96);
+            
+    
+            feature_group_3e2b353606a73f3d3d2d8b6a4a5a5aaa.addTo(map_490e9e18175f72e9292ec2c868f3769f);
+        
+    
+            var feature_group_88a17ae17a6036b44f444b6e3ee35a06 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_410d6a8f7e2489a7fb963a0a25e23729 = L.marker(
                 [34.73884, -88.23483],
                 {
 }
-            ).addTo(feature_group_108c0b6515f2a17e7c50ffd59a5ea308);
+            ).addTo(feature_group_88a17ae17a6036b44f444b6e3ee35a06);
         
     
-            var icon_f1080ac4e01fbdb2d67f983c1dc50c55 = L.AwesomeMarkers.icon(
+            var icon_dd37889177151c4a3ae869d5ff6bec12 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -2540,24 +1994,24 @@
             );
         
     
-        var popup_eeed43b4102d1c07820311602223904d = L.popup({
+        var popup_4e9ebef32a4849fc9dc58b43c61303f0 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_b68d73c4da09ad009d3920cf3e8cd4fd = $(`<div id="html_b68d73c4da09ad009d3920cf3e8cd4fd" style="width: 100.0%; height: 100.0%;"><b>Concrete Repair (Seal &amp; Overlay) approximately 5.9 miles of US 72 from the west end of SR 25 to the Alabama State Line &amp; Bridge Re</b><br><b>NHPP-0007-01(097)/108914301</b> &middot; Tishomingo (MDOT) &middot; ~191 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/108914301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_eeed43b4102d1c07820311602223904d.setContent(html_b68d73c4da09ad009d3920cf3e8cd4fd);
+                var html_b0428cbc8adb200d4e14e6d90c4c62bf = $(`<div id="html_b0428cbc8adb200d4e14e6d90c4c62bf" style="width: 100.0%; height: 100.0%;"><b>Concrete Repair (Seal &amp; Overlay) approximately 5.9 miles of US 72 from the west end of SR 25 to the Alabama State Line &amp; Bridge Re</b><br><b>NHPP-0007-01(097)/108914301</b> &middot; Tishomingo (MDOT) &middot; ~191 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/108914301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_4e9ebef32a4849fc9dc58b43c61303f0.setContent(html_b0428cbc8adb200d4e14e6d90c4c62bf);
             
         
 
-        marker_84d81f27ea03eca45ad416d670064055.bindPopup(popup_eeed43b4102d1c07820311602223904d)
+        marker_410d6a8f7e2489a7fb963a0a25e23729.bindPopup(popup_4e9ebef32a4849fc9dc58b43c61303f0)
         ;
 
         
     
     
-            marker_84d81f27ea03eca45ad416d670064055.bindTooltip(
+            marker_410d6a8f7e2489a7fb963a0a25e23729.bindTooltip(
                 `<div>
                      NHPP-0007-01(097)/108914301 &middot; Tishomingo ~191 mi
                  </div>`,
@@ -2567,17 +2021,17 @@
             );
         
     
-                marker_84d81f27ea03eca45ad416d670064055.setIcon(icon_f1080ac4e01fbdb2d67f983c1dc50c55);
+                marker_410d6a8f7e2489a7fb963a0a25e23729.setIcon(icon_dd37889177151c4a3ae869d5ff6bec12);
             
     
-            var marker_129402c7a6f624c804ce984c864acd07 = L.marker(
-                [31.483604331250312, -90.40628551269684],
+            var marker_0ebd6a97ddd58ea6b676335e61460ba4 = L.marker(
+                [31.53522, -90.45357],
                 {
 }
-            ).addTo(feature_group_108c0b6515f2a17e7c50ffd59a5ea308);
+            ).addTo(feature_group_88a17ae17a6036b44f444b6e3ee35a06);
         
     
-            var icon_8ccf523586b36778f448e80b01a56c64 = L.AwesomeMarkers.icon(
+            var icon_c344867b4c541d632c4dba5c3079e765 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -2588,24 +2042,24 @@
             );
         
     
-        var popup_2f6ceea948a5bbc1f719d85928e30bb5 = L.popup({
+        var popup_ebfc1ee4a3757d86743024e551773fc2 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_3763bf255b900f141e0d28dc1d594a4e = $(`<div id="html_3763bf255b900f141e0d28dc1d594a4e" style="width: 100.0%; height: 100.0%;"><b>Bridge Repair on I-55 over CNIC Railroad (Bridge Nos. 40.3A &amp; 40.3B), known as Federal Aid Project No. NHPP-0055-01(153) / 1100443</b><br><b>NHPP-0055-01(153)/110044301</b> &middot; Lincoln (MDOT) &middot; ~67 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/110044301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_2f6ceea948a5bbc1f719d85928e30bb5.setContent(html_3763bf255b900f141e0d28dc1d594a4e);
+                var html_5bcda265804571d1d40b96cda4d3a6ea = $(`<div id="html_5bcda265804571d1d40b96cda4d3a6ea" style="width: 100.0%; height: 100.0%;"><b>Bridge Repair on I-55 over CNIC Railroad (Bridge Nos. 40.3A &amp; 40.3B), known as Federal Aid Project No. NHPP-0055-01(153) / 1100443</b><br><b>NHPP-0055-01(153)/110044301</b> &middot; Lincoln (MDOT) &middot; ~67 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/110044301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_ebfc1ee4a3757d86743024e551773fc2.setContent(html_5bcda265804571d1d40b96cda4d3a6ea);
             
         
 
-        marker_129402c7a6f624c804ce984c864acd07.bindPopup(popup_2f6ceea948a5bbc1f719d85928e30bb5)
+        marker_0ebd6a97ddd58ea6b676335e61460ba4.bindPopup(popup_ebfc1ee4a3757d86743024e551773fc2)
         ;
 
         
     
     
-            marker_129402c7a6f624c804ce984c864acd07.bindTooltip(
+            marker_0ebd6a97ddd58ea6b676335e61460ba4.bindTooltip(
                 `<div>
                      NHPP-0055-01(153)/110044301 &middot; Lincoln ~67 mi
                  </div>`,
@@ -2615,17 +2069,17 @@
             );
         
     
-                marker_129402c7a6f624c804ce984c864acd07.setIcon(icon_8ccf523586b36778f448e80b01a56c64);
+                marker_0ebd6a97ddd58ea6b676335e61460ba4.setIcon(icon_c344867b4c541d632c4dba5c3079e765);
             
     
-            var marker_324bba026f2f4a9673848b13e9acc791 = L.marker(
+            var marker_fd3bf9972b58d56d4520c0537ba6fa47 = L.marker(
                 [32.63437, -90.03416],
                 {
 }
-            ).addTo(feature_group_108c0b6515f2a17e7c50ffd59a5ea308);
+            ).addTo(feature_group_88a17ae17a6036b44f444b6e3ee35a06);
         
     
-            var icon_1e830d2eff8b902b58474685a3f71be0 = L.AwesomeMarkers.icon(
+            var icon_cc953b3c342717ca6b067aea86e3c38f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "orange",
   "iconColor": "white",
@@ -2636,24 +2090,24 @@
             );
         
     
-        var popup_fca174acebcb46a74d556c8d6934cbb6 = L.popup({
+        var popup_7ddd8b551982d2db0c1ebc1cee18e413 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_8893e11b0b3989623664fd42de563bae = $(`<div id="html_8893e11b0b3989623664fd42de563bae" style="width: 100.0%; height: 100.0%;"><b>OGFC lift approximately 7.3 miles on I-55 from Church Road to Heindl Road, Bridge Repair on I-55 over Church Road (Bridge Nos. 112</b><br><b>NHPP-0055-02(287)/110043301</b> &middot; Madison (MDOT) &middot; ~13 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/110067301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_fca174acebcb46a74d556c8d6934cbb6.setContent(html_8893e11b0b3989623664fd42de563bae);
+                var html_a10a15f0e8c37485b9a862c804c7db2e = $(`<div id="html_a10a15f0e8c37485b9a862c804c7db2e" style="width: 100.0%; height: 100.0%;"><b>OGFC lift approximately 7.3 miles on I-55 from Church Road to Heindl Road, Bridge Repair on I-55 over Church Road (Bridge Nos. 112</b><br><b>NHPP-0055-02(287)/110043301</b> &middot; Madison (MDOT) &middot; ~13 mi<br>Bids 2026-11-24<br><a href='https://mdot.ms.gov/bidsystem_data/20261124/PROPOSALS/110067301000.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_7ddd8b551982d2db0c1ebc1cee18e413.setContent(html_a10a15f0e8c37485b9a862c804c7db2e);
             
         
 
-        marker_324bba026f2f4a9673848b13e9acc791.bindPopup(popup_fca174acebcb46a74d556c8d6934cbb6)
+        marker_fd3bf9972b58d56d4520c0537ba6fa47.bindPopup(popup_7ddd8b551982d2db0c1ebc1cee18e413)
         ;
 
         
     
     
-            marker_324bba026f2f4a9673848b13e9acc791.bindTooltip(
+            marker_fd3bf9972b58d56d4520c0537ba6fa47.bindTooltip(
                 `<div>
                      NHPP-0055-02(287)/110043301 &middot; Madison ~13 mi
                  </div>`,
@@ -2663,26 +2117,572 @@
             );
         
     
-                marker_324bba026f2f4a9673848b13e9acc791.setIcon(icon_1e830d2eff8b902b58474685a3f71be0);
+                marker_fd3bf9972b58d56d4520c0537ba6fa47.setIcon(icon_cc953b3c342717ca6b067aea86e3c38f);
             
     
-            feature_group_108c0b6515f2a17e7c50ffd59a5ea308.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_88a17ae17a6036b44f444b6e3ee35a06.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var feature_group_e53bda6811768f67ded6d44cff3b7a66 = L.featureGroup(
+            var feature_group_690a6caa1825832f321f7a1bd1e251c0 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_3be454fae48daf5d8ae946c3db294ad7 = L.marker(
+            var marker_b625abbb7a5be51509c84354cb5d8605 = L.marker(
+                [36.16913, -86.78479],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_7a58e84ef698b28eb7c96870b1f7d10c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d00748e8fb72fd8d043a6e7e7c97ff0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d29a129145b2977d231a35b3ba43515d = $(`<div id="html_d29a129145b2977d231a35b3ba43515d" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-65 from the Williamson County line (L.M. 0.00) to Armory Drive (L.M. 4.50), including bridge expansion joint </b><br><b>CN263070</b> &middot; Davidson (TDOT) &middot; ~319 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_1d00748e8fb72fd8d043a6e7e7c97ff0.setContent(html_d29a129145b2977d231a35b3ba43515d);
+            
+        
+
+        marker_b625abbb7a5be51509c84354cb5d8605.bindPopup(popup_1d00748e8fb72fd8d043a6e7e7c97ff0)
+        ;
+
+        
+    
+    
+            marker_b625abbb7a5be51509c84354cb5d8605.bindTooltip(
+                `<div>
+                     CN263070 &middot; Davidson ~319 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b625abbb7a5be51509c84354cb5d8605.setIcon(icon_7a58e84ef698b28eb7c96870b1f7d10c);
+            
+    
+            var marker_2872c6cdb9eff39c9dacc9ac0a4473c7 = L.marker(
+                [35.60314, -88.11029],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_65a8f5b3c5cdf945f87ad6623b1041ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_351a6f30d82d16489c66412117ecf3ca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd121f8205085ecb134516f3ede56cfb = $(`<div id="html_dd121f8205085ecb134516f3ede56cfb" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 69 from Brooksie Access Road (L.M. 19.73) to Old Tennessee 69 (L.M. 31.50), including bridge repair work.</b><br><b>CN264067</b> &middot; Decatur (TDOT) &middot; ~246 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_351a6f30d82d16489c66412117ecf3ca.setContent(html_dd121f8205085ecb134516f3ede56cfb);
+            
+        
+
+        marker_2872c6cdb9eff39c9dacc9ac0a4473c7.bindPopup(popup_351a6f30d82d16489c66412117ecf3ca)
+        ;
+
+        
+    
+    
+            marker_2872c6cdb9eff39c9dacc9ac0a4473c7.bindTooltip(
+                `<div>
+                     CN264067 &middot; Decatur ~246 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2872c6cdb9eff39c9dacc9ac0a4473c7.setIcon(icon_65a8f5b3c5cdf945f87ad6623b1041ae);
+            
+    
+            var marker_81358d92de4eb05a1eef4c99f548e775 = L.marker(
+                [36.0542, -89.39831],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_b5719eec236986f4caafcb902c64f3a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_835061e3124cd473efdcbcff90c2bcaf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_529b44d705cefa20b9ed2146866e28db = $(`<div id="html_529b44d705cefa20b9ed2146866e28db" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 51 (S.R. 3) from Sylvan Road (L.M. 11.79) to Ramp 17C to S.R. 77 (L.M. 17.87), including bridge expansion </b><br><b>CN264068</b> &middot; Dyer (TDOT) &middot; ~251 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_835061e3124cd473efdcbcff90c2bcaf.setContent(html_529b44d705cefa20b9ed2146866e28db);
+            
+        
+
+        marker_81358d92de4eb05a1eef4c99f548e775.bindPopup(popup_835061e3124cd473efdcbcff90c2bcaf)
+        ;
+
+        
+    
+    
+            marker_81358d92de4eb05a1eef4c99f548e775.bindTooltip(
+                `<div>
+                     CN264068 &middot; Dyer ~251 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81358d92de4eb05a1eef4c99f548e775.setIcon(icon_b5719eec236986f4caafcb902c64f3a0);
+            
+    
+            var marker_192ed57dd113d73f975ee3dfe6b84e20 = L.marker(
+                [35.65399, -88.38767],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_faedb19e940a945fea6345629d44d75a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dce576679d4ba409424c37cd9785fd37 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_118991628fc16291d86d7f966e2bc50f = $(`<div id="html_118991628fc16291d86d7f966e2bc50f" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-40 from the Madison County line (L.M. 0.00) to near MM 100.4 (L.M. 5.38), including bridge expansion joint re</b><br><b>CN264074</b> &middot; Henderson (TDOT) &middot; ~242 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_dce576679d4ba409424c37cd9785fd37.setContent(html_118991628fc16291d86d7f966e2bc50f);
+            
+        
+
+        marker_192ed57dd113d73f975ee3dfe6b84e20.bindPopup(popup_dce576679d4ba409424c37cd9785fd37)
+        ;
+
+        
+    
+    
+            marker_192ed57dd113d73f975ee3dfe6b84e20.bindTooltip(
+                `<div>
+                     CN264074 &middot; Henderson ~242 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_192ed57dd113d73f975ee3dfe6b84e20.setIcon(icon_faedb19e940a945fea6345629d44d75a);
+            
+    
+            var marker_9e10d71ade613110b42d4139ece7cf76 = L.marker(
+                [35.60237433125031, -88.34038551269684],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_fa2e4de194d726ab9b88de2d89e70739 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e7aa9c9c8a0f294ada21db63462f256 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4511073d14c72ae67af44d58747f318d = $(`<div id="html_4511073d14c72ae67af44d58747f318d" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 412 (S.R. 20) from Thomas Road (L.M. 10.72) to S.R. 22 (L.M. 12.83), including bridge expansion joint repa</b><br><b>CN264070</b> &middot; Henderson (TDOT) &middot; ~242 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_6e7aa9c9c8a0f294ada21db63462f256.setContent(html_4511073d14c72ae67af44d58747f318d);
+            
+        
+
+        marker_9e10d71ade613110b42d4139ece7cf76.bindPopup(popup_6e7aa9c9c8a0f294ada21db63462f256)
+        ;
+
+        
+    
+    
+            marker_9e10d71ade613110b42d4139ece7cf76.bindTooltip(
+                `<div>
+                     CN264070 &middot; Henderson ~242 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e10d71ade613110b42d4139ece7cf76.setIcon(icon_fa2e4de194d726ab9b88de2d89e70739);
+            
+    
+            var marker_4ea0f8143a06bf708539133c6e29edf6 = L.marker(
+                [36.35425, -85.67413],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_038a8975277de2b7a64f00476e7712c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9308538a2792e2d4136081f3e24318d2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_50cbbe479c56f91a01816fb69c80d177 = $(`<div id="html_50cbbe479c56f91a01816fb69c80d177" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 56 from south of S.R. 135 (L.M. 17.15) to east of S.R. 151 (L.M. 23.52), including bridge expansion joint </b><br><b>CN262075</b> &middot; Jackson (TDOT) &middot; ~370 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_9308538a2792e2d4136081f3e24318d2.setContent(html_50cbbe479c56f91a01816fb69c80d177);
+            
+        
+
+        marker_4ea0f8143a06bf708539133c6e29edf6.bindPopup(popup_9308538a2792e2d4136081f3e24318d2)
+        ;
+
+        
+    
+    
+            marker_4ea0f8143a06bf708539133c6e29edf6.bindTooltip(
+                `<div>
+                     CN262075 &middot; Jackson ~370 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ea0f8143a06bf708539133c6e29edf6.setIcon(icon_038a8975277de2b7a64f00476e7712c6);
+            
+    
+            var marker_2f26357a7acc31b52dd8856f7e1b5a19 = L.marker(
+                [35.60606, -88.83342],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_d135a77e46050c4a19351e7e2dc212e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30a20bfcc1407d8f7c3e981cda281a4d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4dacb26392d4f643a45ff232282e7f25 = $(`<div id="html_4dacb26392d4f643a45ff232282e7f25" style="width: 100.0%; height: 100.0%;"><b>The grading, drainage, construction of a welded steel girder bridge, lighting and signals, ITS, and paving on I-40 at Christmasvil</b><br><b>CN264076</b> &middot; Madison (TDOT) &middot; ~229 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_30a20bfcc1407d8f7c3e981cda281a4d.setContent(html_4dacb26392d4f643a45ff232282e7f25);
+            
+        
+
+        marker_2f26357a7acc31b52dd8856f7e1b5a19.bindPopup(popup_30a20bfcc1407d8f7c3e981cda281a4d)
+        ;
+
+        
+    
+    
+            marker_2f26357a7acc31b52dd8856f7e1b5a19.bindTooltip(
+                `<div>
+                     CN264076 &middot; Madison ~229 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f26357a7acc31b52dd8856f7e1b5a19.setIcon(icon_d135a77e46050c4a19351e7e2dc212e2);
+            
+    
+            var marker_7670614c4612d08e2bb053cd430d9b08 = L.marker(
+                [35.18455, -89.89461],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_dc8516dcf2fddd5fa0d3fbc32c84955f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aaed70f20274a25b39f21a26326e9490 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af031e7cfd079b550297be32aad42e64 = $(`<div id="html_af031e7cfd079b550297be32aad42e64" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on I-40 from Fletcher Creek (L.M. 19.44) to near Davies Plantation Road (L.M. 22.84), including bridge expansion j</b><br><b>CN264059</b> &middot; Shelby (TDOT) &middot; ~188 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_aaed70f20274a25b39f21a26326e9490.setContent(html_af031e7cfd079b550297be32aad42e64);
+            
+        
+
+        marker_7670614c4612d08e2bb053cd430d9b08.bindPopup(popup_aaed70f20274a25b39f21a26326e9490)
+        ;
+
+        
+    
+    
+            marker_7670614c4612d08e2bb053cd430d9b08.bindTooltip(
+                `<div>
+                     CN264059 &middot; Shelby ~188 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7670614c4612d08e2bb053cd430d9b08.setIcon(icon_dc8516dcf2fddd5fa0d3fbc32c84955f);
+            
+    
+            var marker_379ddcf9eb73c64f53398c42f6528096 = L.marker(
+                [36.47242, -86.4584],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_f12ebba8b5703f2ef3290a2e8230b15a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b77df42acd896378eb5b9f85e33c9120 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51063c23e78341b2a5806138b9d3acab = $(`<div id="html_51063c23e78341b2a5806138b9d3acab" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on S.R. 174 from the Davidson County line (L.M. 0.00) to Buchanan Circle (L.M. 6.47), including bridge expansion j</b><br><b>CN263085</b> &middot; Sumner (TDOT) &middot; ~347 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_b77df42acd896378eb5b9f85e33c9120.setContent(html_51063c23e78341b2a5806138b9d3acab);
+            
+        
+
+        marker_379ddcf9eb73c64f53398c42f6528096.bindPopup(popup_b77df42acd896378eb5b9f85e33c9120)
+        ;
+
+        
+    
+    
+            marker_379ddcf9eb73c64f53398c42f6528096.bindTooltip(
+                `<div>
+                     CN263085 &middot; Sumner ~347 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_379ddcf9eb73c64f53398c42f6528096.setIcon(icon_f12ebba8b5703f2ef3290a2e8230b15a);
+            
+    
+            var marker_c191bbe98e97e79afbf85be1cb9c324f = L.marker(
+                [36.14943, -86.29118],
+                {
+}
+            ).addTo(feature_group_690a6caa1825832f321f7a1bd1e251c0);
+        
+    
+            var icon_1a470143469023501d8d8e347aec0451 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f85b22b1568a4b5c9b47c216c1a7952 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_148761b49e6170fd099a357468729e31 = $(`<div id="html_148761b49e6170fd099a357468729e31" style="width: 100.0%; height: 100.0%;"><b>The resurfacing on U.S. 231 (S.R. 10) from near Cedar Forest Road (L.M. 6.00) to near U.S. 70 (S.R. 24, West Main Street) (L.M. 14</b><br><b>CN263087</b> &middot; Wilson (TDOT) &middot; ~336 mi<br>Bids 2026-12-04<br><a href='https://www.tn.gov/tdot/tdot-construction-division/bid-lettings/2026-bid-lettings/december-4--2026-letting.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_9f85b22b1568a4b5c9b47c216c1a7952.setContent(html_148761b49e6170fd099a357468729e31);
+            
+        
+
+        marker_c191bbe98e97e79afbf85be1cb9c324f.bindPopup(popup_9f85b22b1568a4b5c9b47c216c1a7952)
+        ;
+
+        
+    
+    
+            marker_c191bbe98e97e79afbf85be1cb9c324f.bindTooltip(
+                `<div>
+                     CN263087 &middot; Wilson ~336 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c191bbe98e97e79afbf85be1cb9c324f.setIcon(icon_1a470143469023501d8d8e347aec0451);
+            
+    
+            feature_group_690a6caa1825832f321f7a1bd1e251c0.addTo(map_490e9e18175f72e9292ec2c868f3769f);
+        
+    
+            var feature_group_5e68aa99628bc0c7308c8dd6b7f52efc = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_a945264f5399134d2143489c1573fca2 = L.marker(
+                [34.42369, -90.85559],
+                {
+}
+            ).addTo(feature_group_5e68aa99628bc0c7308c8dd6b7f52efc);
+        
+    
+            var icon_b5d83d12ffb752cdf9ecfec8ea97de49 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa9673b236d9140f0bc9b8a6ff5e69ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7fef26532401e3a74a49d43bf7ade0c8 = $(`<div id="html_7fef26532401e3a74a49d43bf7ade0c8" style="width: 100.0%; height: 100.0%;"><b>Hwy. 49 Mississippi River Bridge Rehab. (S) — Rehabilitate the mississippi river bridge including deck replacement and polymer ove</b><br><b>110812</b> &middot; Phillips (ARDOT) &middot; ~141 mi<br>Bids 2027-01-20<br><a href='https://media.ark.org/ardot/110812_3-proposal.pdf' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_aa9673b236d9140f0bc9b8a6ff5e69ea.setContent(html_7fef26532401e3a74a49d43bf7ade0c8);
+            
+        
+
+        marker_a945264f5399134d2143489c1573fca2.bindPopup(popup_aa9673b236d9140f0bc9b8a6ff5e69ea)
+        ;
+
+        
+    
+    
+            marker_a945264f5399134d2143489c1573fca2.bindTooltip(
+                `<div>
+                     110812 &middot; Phillips ~141 mi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a945264f5399134d2143489c1573fca2.setIcon(icon_b5d83d12ffb752cdf9ecfec8ea97de49);
+            
+    
+            feature_group_5e68aa99628bc0c7308c8dd6b7f52efc.addTo(map_490e9e18175f72e9292ec2c868f3769f);
+        
+    
+            var feature_group_4f8b142d5948dce7f5ca1bb460feaf88 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_23d1c537c65444428b3c6878b9b5001f = L.marker(
                 [34.68722433125031, -88.18754551269684],
                 {
 }
-            ).addTo(feature_group_e53bda6811768f67ded6d44cff3b7a66);
+            ).addTo(feature_group_4f8b142d5948dce7f5ca1bb460feaf88);
         
     
-            var icon_0d2ba6bcfe5a5397d69df8f07bef38dc = L.AwesomeMarkers.icon(
+            var icon_61b6a7b99ef318b18280026d6a64df81 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2693,24 +2693,24 @@
             );
         
     
-        var popup_bea1f9b4f88da54488bbeec98c736b4d = L.popup({
+        var popup_486cca470b8214c073a42cc9702649af = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_f4f25d01ea27e773829e979b834afa75 = $(`<div id="html_f4f25d01ea27e773829e979b834afa75" style="width: 100.0%; height: 100.0%;"><b>Bridge Replacement on MS 25</b><br><b>STBG-0040-03(024)</b> &middot; Tishomingo (MDOT) &middot; ~191 mi<br>Design-Build · Anticipated — NOI<br><a href='https://mdot.ms.gov/portal/alternative_delivery_projects' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_bea1f9b4f88da54488bbeec98c736b4d.setContent(html_f4f25d01ea27e773829e979b834afa75);
+                var html_3d93bacc91f0f126ffe55bdf00cfe69e = $(`<div id="html_3d93bacc91f0f126ffe55bdf00cfe69e" style="width: 100.0%; height: 100.0%;"><b>Bridge Replacement on MS 25</b><br><b>STBG-0040-03(024)</b> &middot; Tishomingo (MDOT) &middot; ~191 mi<br>Design-Build · Anticipated — NOI<br><a href='https://mdot.ms.gov/portal/alternative_delivery_projects' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_486cca470b8214c073a42cc9702649af.setContent(html_3d93bacc91f0f126ffe55bdf00cfe69e);
             
         
 
-        marker_3be454fae48daf5d8ae946c3db294ad7.bindPopup(popup_bea1f9b4f88da54488bbeec98c736b4d)
+        marker_23d1c537c65444428b3c6878b9b5001f.bindPopup(popup_486cca470b8214c073a42cc9702649af)
         ;
 
         
     
     
-            marker_3be454fae48daf5d8ae946c3db294ad7.bindTooltip(
+            marker_23d1c537c65444428b3c6878b9b5001f.bindTooltip(
                 `<div>
                      STBG-0040-03(024) &middot; Tishomingo ~191 mi
                  </div>`,
@@ -2720,26 +2720,26 @@
             );
         
     
-                marker_3be454fae48daf5d8ae946c3db294ad7.setIcon(icon_0d2ba6bcfe5a5397d69df8f07bef38dc);
+                marker_23d1c537c65444428b3c6878b9b5001f.setIcon(icon_61b6a7b99ef318b18280026d6a64df81);
             
     
-            feature_group_e53bda6811768f67ded6d44cff3b7a66.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_4f8b142d5948dce7f5ca1bb460feaf88.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            var feature_group_6924f28c3de4aab33c1cfd7bedb818a3 = L.featureGroup(
+            var feature_group_f495634e66d5ec0f046063f04ee7428e = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_d1f7ef30e2373132fd7d71c852ad0f27 = L.marker(
+            var marker_bfd52d05517325bc6bd962a634595e31 = L.marker(
                 [35.96575, -88.45238],
                 {
 }
-            ).addTo(feature_group_6924f28c3de4aab33c1cfd7bedb818a3);
+            ).addTo(feature_group_f495634e66d5ec0f046063f04ee7428e);
         
     
-            var icon_a316d393b9ea5474f6eed7f3c5bb8c4e = L.AwesomeMarkers.icon(
+            var icon_c43caec0de719dcf33509ae1dabec3e9 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2750,24 +2750,24 @@
             );
         
     
-        var popup_8ebdf21b854ddb5faef1a30528dfd372 = L.popup({
+        var popup_e2b311576f44e10d7ede2ab505b53727 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_ee8eee482cd30c23a5fb8e60be1830d5 = $(`<div id="html_ee8eee482cd30c23a5fb8e60be1830d5" style="width: 100.0%; height: 100.0%;"><b>Bridges over I-40</b><br><b>DB2603</b> &middot; Carroll and Henderson Counties (TDOT) &middot; ~260 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2603.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_8ebdf21b854ddb5faef1a30528dfd372.setContent(html_ee8eee482cd30c23a5fb8e60be1830d5);
+                var html_7b6a40c4f8d654d34eea8b649e8c4fc4 = $(`<div id="html_7b6a40c4f8d654d34eea8b649e8c4fc4" style="width: 100.0%; height: 100.0%;"><b>Bridges over I-40</b><br><b>DB2603</b> &middot; Carroll and Henderson Counties (TDOT) &middot; ~260 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2603.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_e2b311576f44e10d7ede2ab505b53727.setContent(html_7b6a40c4f8d654d34eea8b649e8c4fc4);
             
         
 
-        marker_d1f7ef30e2373132fd7d71c852ad0f27.bindPopup(popup_8ebdf21b854ddb5faef1a30528dfd372)
+        marker_bfd52d05517325bc6bd962a634595e31.bindPopup(popup_e2b311576f44e10d7ede2ab505b53727)
         ;
 
         
     
     
-            marker_d1f7ef30e2373132fd7d71c852ad0f27.bindTooltip(
+            marker_bfd52d05517325bc6bd962a634595e31.bindTooltip(
                 `<div>
                      DB2603 &middot; Carroll and Henderson Counties ~260 mi
                  </div>`,
@@ -2777,17 +2777,17 @@
             );
         
     
-                marker_d1f7ef30e2373132fd7d71c852ad0f27.setIcon(icon_a316d393b9ea5474f6eed7f3c5bb8c4e);
+                marker_bfd52d05517325bc6bd962a634595e31.setIcon(icon_c43caec0de719dcf33509ae1dabec3e9);
             
     
-            var marker_a47e1c53bc00ca38b9f43d95c22ec0fe = L.marker(
+            var marker_92dd3b0ea2a3f2cd6cc9678199351732 = L.marker(
                 [35.89484, -86.89789],
                 {
 }
-            ).addTo(feature_group_6924f28c3de4aab33c1cfd7bedb818a3);
+            ).addTo(feature_group_f495634e66d5ec0f046063f04ee7428e);
         
     
-            var icon_351777fb9e7c8d8137118ab09b9f56d4 = L.AwesomeMarkers.icon(
+            var icon_68aaee8e0a951ece3475048589a9b6b5 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2798,24 +2798,24 @@
             );
         
     
-        var popup_1ac303b996b8c772b0edd494b90c0cd6 = L.popup({
+        var popup_2a23ab3dbf5c50483c51d412f89dcf2a = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_0c6a3c0587ee7316598ef7c190217a37 = $(`<div id="html_0c6a3c0587ee7316598ef7c190217a37" style="width: 100.0%; height: 100.0%;"><b>I-65 Widening Near June Lake Boulevard</b><br><b>DB2702</b> &middot; Williamson County (TDOT) &middot; ~301 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2702.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_1ac303b996b8c772b0edd494b90c0cd6.setContent(html_0c6a3c0587ee7316598ef7c190217a37);
+                var html_87cbf1737bc4782e400c275b911aeebe = $(`<div id="html_87cbf1737bc4782e400c275b911aeebe" style="width: 100.0%; height: 100.0%;"><b>I-65 Widening Near June Lake Boulevard</b><br><b>DB2702</b> &middot; Williamson County (TDOT) &middot; ~301 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2702.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_2a23ab3dbf5c50483c51d412f89dcf2a.setContent(html_87cbf1737bc4782e400c275b911aeebe);
             
         
 
-        marker_a47e1c53bc00ca38b9f43d95c22ec0fe.bindPopup(popup_1ac303b996b8c772b0edd494b90c0cd6)
+        marker_92dd3b0ea2a3f2cd6cc9678199351732.bindPopup(popup_2a23ab3dbf5c50483c51d412f89dcf2a)
         ;
 
         
     
     
-            marker_a47e1c53bc00ca38b9f43d95c22ec0fe.bindTooltip(
+            marker_92dd3b0ea2a3f2cd6cc9678199351732.bindTooltip(
                 `<div>
                      DB2702 &middot; Williamson County ~301 mi
                  </div>`,
@@ -2825,17 +2825,17 @@
             );
         
     
-                marker_a47e1c53bc00ca38b9f43d95c22ec0fe.setIcon(icon_351777fb9e7c8d8137118ab09b9f56d4);
+                marker_92dd3b0ea2a3f2cd6cc9678199351732.setIcon(icon_68aaee8e0a951ece3475048589a9b6b5);
             
     
-            var marker_6957e11cb10f5c712d3a7b118d08740e = L.marker(
+            var marker_eec11915505f062d53301ee8910cacad = L.marker(
                 [35.19699, -89.4138],
                 {
 }
-            ).addTo(feature_group_6924f28c3de4aab33c1cfd7bedb818a3);
+            ).addTo(feature_group_f495634e66d5ec0f046063f04ee7428e);
         
     
-            var icon_a9dd1789498b2b86afda1251279a39c9 = L.AwesomeMarkers.icon(
+            var icon_13ebbacdf41f08b14370d10725f12c34 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2846,24 +2846,24 @@
             );
         
     
-        var popup_5b04fe49384c5c9a4a74c587eca7f140 = L.popup({
+        var popup_37b77a1cc10cf4b6925de08d75085ab1 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_f8f45914de554e8f4ae9177f0e2341d5 = $(`<div id="html_f8f45914de554e8f4ae9177f0e2341d5" style="width: 100.0%; height: 100.0%;"><b>Timber Bridge Bundle 2</b><br><b>DB2601</b> &middot; Fayette, Haywood, Madison (TDOT) &middot; ~193 mi<br>Design-Build · Draft Request for Proposals (RFP)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2601.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_5b04fe49384c5c9a4a74c587eca7f140.setContent(html_f8f45914de554e8f4ae9177f0e2341d5);
+                var html_f89d29415655ae94a9f887e7930020e1 = $(`<div id="html_f89d29415655ae94a9f887e7930020e1" style="width: 100.0%; height: 100.0%;"><b>Timber Bridge Bundle 2</b><br><b>DB2601</b> &middot; Fayette, Haywood, Madison (TDOT) &middot; ~193 mi<br>Design-Build · Draft Request for Proposals (RFP)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2601.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_37b77a1cc10cf4b6925de08d75085ab1.setContent(html_f89d29415655ae94a9f887e7930020e1);
             
         
 
-        marker_6957e11cb10f5c712d3a7b118d08740e.bindPopup(popup_5b04fe49384c5c9a4a74c587eca7f140)
+        marker_eec11915505f062d53301ee8910cacad.bindPopup(popup_37b77a1cc10cf4b6925de08d75085ab1)
         ;
 
         
     
     
-            marker_6957e11cb10f5c712d3a7b118d08740e.bindTooltip(
+            marker_eec11915505f062d53301ee8910cacad.bindTooltip(
                 `<div>
                      DB2601 &middot; Fayette, Haywood, Madison ~193 mi
                  </div>`,
@@ -2873,17 +2873,17 @@
             );
         
     
-                marker_6957e11cb10f5c712d3a7b118d08740e.setIcon(icon_a9dd1789498b2b86afda1251279a39c9);
+                marker_eec11915505f062d53301ee8910cacad.setIcon(icon_13ebbacdf41f08b14370d10725f12c34);
             
     
-            var marker_ba04c2560a62c79a2cba15a82ea9a98e = L.marker(
+            var marker_a726475687966635511436a1bf5800b0 = L.marker(
                 [35.55444433125031, -88.78613551269684],
                 {
 }
-            ).addTo(feature_group_6924f28c3de4aab33c1cfd7bedb818a3);
+            ).addTo(feature_group_f495634e66d5ec0f046063f04ee7428e);
         
     
-            var icon_e057133841fe987f1c11b9ce77aeaf52 = L.AwesomeMarkers.icon(
+            var icon_7d3637564b472b0a7ac7719bdd3abe12 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2894,24 +2894,24 @@
             );
         
     
-        var popup_431480ea9b58ee8911d440659c0eb823 = L.popup({
+        var popup_dbb7010c25b4564a6b91f37e63005683 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_cd3f3c53881ce490eb8ac60d10439d05 = $(`<div id="html_cd3f3c53881ce490eb8ac60d10439d05" style="width: 100.0%; height: 100.0%;"><b>Bridge over I-40 Madison County</b><br><b>DB2606</b> &middot; Madison County (TDOT) &middot; ~229 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2606.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_431480ea9b58ee8911d440659c0eb823.setContent(html_cd3f3c53881ce490eb8ac60d10439d05);
+                var html_46ea33018e42eea9270b827a91086257 = $(`<div id="html_46ea33018e42eea9270b827a91086257" style="width: 100.0%; height: 100.0%;"><b>Bridge over I-40 Madison County</b><br><b>DB2606</b> &middot; Madison County (TDOT) &middot; ~229 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2606.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_dbb7010c25b4564a6b91f37e63005683.setContent(html_46ea33018e42eea9270b827a91086257);
             
         
 
-        marker_ba04c2560a62c79a2cba15a82ea9a98e.bindPopup(popup_431480ea9b58ee8911d440659c0eb823)
+        marker_a726475687966635511436a1bf5800b0.bindPopup(popup_dbb7010c25b4564a6b91f37e63005683)
         ;
 
         
     
     
-            marker_ba04c2560a62c79a2cba15a82ea9a98e.bindTooltip(
+            marker_a726475687966635511436a1bf5800b0.bindTooltip(
                 `<div>
                      DB2606 &middot; Madison County ~229 mi
                  </div>`,
@@ -2921,17 +2921,17 @@
             );
         
     
-                marker_ba04c2560a62c79a2cba15a82ea9a98e.setIcon(icon_e057133841fe987f1c11b9ce77aeaf52);
+                marker_a726475687966635511436a1bf5800b0.setIcon(icon_7d3637564b472b0a7ac7719bdd3abe12);
             
     
-            var marker_745de806dbebf383208e91b5debdcb11 = L.marker(
+            var marker_675ed72408316eca6ac1552c5f52374d = L.marker(
                 [35.73508, -84.31409],
                 {
 }
-            ).addTo(feature_group_6924f28c3de4aab33c1cfd7bedb818a3);
+            ).addTo(feature_group_f495634e66d5ec0f046063f04ee7428e);
         
     
-            var icon_f63996da77f9c5b3855d7119b36bd15f = L.AwesomeMarkers.icon(
+            var icon_9fb34cb0277746c91057508e7b0f989e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "purple",
   "iconColor": "white",
@@ -2942,24 +2942,24 @@
             );
         
     
-        var popup_c043f15534a11cc3d31cf8a75c82ba60 = L.popup({
+        var popup_01a53a3d8c612f01fdd1c7b37aafd3ed = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_649619cc4a99f479feee61e9638649d5 = $(`<div id="html_649619cc4a99f479feee61e9638649d5" style="width: 100.0%; height: 100.0%;"><b>I-75 Widening From Exit 81 to I-40</b><br><b>DB2607</b> &middot; Loudon County (TDOT) &middot; ~402 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2607.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
-                popup_c043f15534a11cc3d31cf8a75c82ba60.setContent(html_649619cc4a99f479feee61e9638649d5);
+                var html_403cb4bcaf7fa7b1e454bb9ecdc1c2b8 = $(`<div id="html_403cb4bcaf7fa7b1e454bb9ecdc1c2b8" style="width: 100.0%; height: 100.0%;"><b>I-75 Widening From Exit 81 to I-40</b><br><b>DB2607</b> &middot; Loudon County (TDOT) &middot; ~402 mi<br>Design-Build · Request for Qualification (RFQ)<br><a href='https://www.tn.gov/tdot/pm/programs/highway-program/alternative-delivery/design-build/db2607.html' target='_blank'>Proposal &rsaquo;</a></div>`)[0];
+                popup_01a53a3d8c612f01fdd1c7b37aafd3ed.setContent(html_403cb4bcaf7fa7b1e454bb9ecdc1c2b8);
             
         
 
-        marker_745de806dbebf383208e91b5debdcb11.bindPopup(popup_c043f15534a11cc3d31cf8a75c82ba60)
+        marker_675ed72408316eca6ac1552c5f52374d.bindPopup(popup_01a53a3d8c612f01fdd1c7b37aafd3ed)
         ;
 
         
     
     
-            marker_745de806dbebf383208e91b5debdcb11.bindTooltip(
+            marker_675ed72408316eca6ac1552c5f52374d.bindTooltip(
                 `<div>
                      DB2607 &middot; Loudon County ~402 mi
                  </div>`,
@@ -2969,13 +2969,13 @@
             );
         
     
-                marker_745de806dbebf383208e91b5debdcb11.setIcon(icon_f63996da77f9c5b3855d7119b36bd15f);
+                marker_675ed72408316eca6ac1552c5f52374d.setIcon(icon_9fb34cb0277746c91057508e7b0f989e);
             
     
-            feature_group_6924f28c3de4aab33c1cfd7bedb818a3.addTo(map_30d51b2a905f5612e9893e812f86bfc7);
+            feature_group_f495634e66d5ec0f046063f04ee7428e.addTo(map_490e9e18175f72e9292ec2c868f3769f);
         
     
-            map_30d51b2a905f5612e9893e812f86bfc7.fitBounds(
+            map_490e9e18175f72e9292ec2c868f3769f.fitBounds(
                 [[30.05342, -94.35455], [38.83555, -84.31409]],
                 {"padding": [18, 18]}
             );
